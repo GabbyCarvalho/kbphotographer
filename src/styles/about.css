@@ -1,0 +1,272 @@
+/* ================= ABOUT PAGE ================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --black-1: #000000;
+  --teal: #008080;
+  --gray: #696969;
+  --verde-musgo: #7a8f7b;
+  --verde-2:#416645;
+  --verde-frio: #5f7f73;
+  --off-white: #EFEAE4;
+  --white-ice: #F7F9FA;
+}
+
+
+
+.aboutPage {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem .2rem;
+  
+}
+
+/* ============== GRID ===============*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  grid-template-areas:
+    "tittle tittle"
+    "subtittle subtittle"
+
+    "img1 text1"
+    "img2 text2"
+
+    "full1 full1"
+
+    "img3 text3"
+    "img4 text4"
+    "img5 text5"
+    "img6 text6"
+
+    "full2 full2";
+}
+
+
+
+
+.img1 { grid-area: img1; }
+.text1 { grid-area: text1; }
+
+.img2 { grid-area: img2; }
+.text2 { grid-area: text2; }
+
+.full1 {
+  grid-area: full1;
+}
+
+.img3 { grid-area: img3; }
+.text3 { grid-area: text3; }
+
+.img4 { grid-area: img4; }
+.text4 { grid-area: text4; }
+
+.img5 { grid-area: img5; }
+.text5 { grid-area: text5; }
+
+.img6 { grid-area: img6; }
+.text6 { grid-area: text6; }
+
+.full2 {
+  grid-area: full2;
+}
+
+
+.grid-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.grid-container img {
+  border-radius: 6px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.grid-container img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* ============== IMAGENS/TEXTO ===============*/
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.img5 {
+  height: 650px;
+}
+
+.img2,
+.img4,
+.img6 {
+  height: 400px;
+}
+
+.img1,
+.img3{
+    height: 420px;
+}
+.img1 img {
+  object-position: 70% 20%;
+}
+
+
+.full1,
+.full2 {
+  max-width: 720px;
+  margin: 3rem auto;
+  text-align: center;
+  
+}
+
+.full1::before,
+.full2::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #ccc;
+  margin: 0 auto 3rem;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.full1,
+.full2 {
+  font-family: "Public Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* ============== TITTLE===============*/
+
+.tittle {
+  grid-area: tittle;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: .2rem;
+}
+
+.subtittle {
+    grid-area: subtittle;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    
+}
+
+/* ============== TEXTO ===============*/
+
+.aboutPage h1 {
+    font-size: 4.5rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;  
+}
+
+.aboutPage h2 {
+  font-size: 1.5rem; 
+  margin-top: .5rem;
+}
+
+.aboutPage p {
+  font-size: 1.20rem;   
+  line-height: 1.9;  
+  margin-top: 1.2rem;
+  font-weight: 500;
+ 
+}
+
+/* ============== CONTACT DIV ===============*/
+.contact {
+    max-width: 1000px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+
+}
+
+.contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 0.08em;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* ============== BUTTON ===============*/
+
+.seeReviewsBtn {
+   display: inline-block;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: transparent;
+  text-decoration: none;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.seeReviewsBtn:hover {
+  background: var(--verde-2);
+  color: white;
+}
+
+
+/* ============== FUNCAO ANIMAÇAO DA TELA ===============*/
+
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============== CARD/MOLDURA ===============*/
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 2rem 1.5rem 2.5rem;
+  border: 1px solid transparent;
+  transition: background 0.4s ease, transform 0.4s ease, border-color 0.4s ease;
+}
+
+
+.cardBackground {
+   width: 100%;
+    background-color:var(--verde-claro) ;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    
+}

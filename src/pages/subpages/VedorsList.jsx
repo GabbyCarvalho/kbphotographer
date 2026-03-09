@@ -1,0 +1,113 @@
+import "../../styles/vendors.css"
+import vendor1 from"../../assets/vendors/vendor1.jpg"
+import vendor2 from"../../assets/vendors/vendor2.webp"
+import vendor3 from"../../assets/vendors/vendor3.png"
+import vendor4 from"../../assets/vendors/vendor4.jpg"
+import vendor5 from"../../assets/vendors/vendor5.webp"
+
+import { Link } from "react-router-dom";
+
+
+export default function VendorsLits() {
+    return(
+        <>
+        <div className="vendors">
+             <h2 className="tittle">Vendors List</h2>
+        </div>
+
+        <section className="vendorsList">
+            <ul className="list">
+                <li>
+                    <img src={vendor1} className="vendorsPhoto" alt="" />
+                    <h3 className="vendorsName">Brightfolk Gatherings</h3>
+                    <p className="vendorsService">Luxury Picnics</p>
+                    <p className="vendorsDescription">
+                    Brightfolk Gatherings, founded by Phoenix in Denver and
+                    Boulder, is a boutique picnic and event styling studio. What
+                    started as a love for beautiful tablescapes and meaningful
+                    connections has grown into creating spaces that feel genuine,
+                    thoughtful, and full of heart. Every experience blends soft,
+                    natural textures, grounded color palettes, and a touch of
+                    modern romance, helping couples slow down, savor the moment,
+                    and celebrate life’s most intimate occasions — from proposals
+                    and anniversaries to other special gatherings.
+                    
+                    </p>
+                    <a href="https://brightfolkgatherings.com/" target="_blank">Vist their website</a>
+                </li>
+                <li>
+                    <img src={vendor2} className="vendorsPhoto" alt="" />
+                    <h3 className="vendorsName">Pretty and Ink</h3>
+                    <p className="vendorsService"> Makeup Artist | Permanent Jewelry</p>
+                    <p className="vendorsDescription">
+                  Caila has been in the beauty industry for a decade. Her love
+                  of all things beauty related is inspired by her dad. Her love
+                  of weddings and all things bridal comes from wanting to be a
+                  wedding photographer. She fell in love with the behind the
+                  scenes work and caught herself wanting to help and jump in to
+                  assist with hair and make-up prep. Fast forward to present day
+                  and she gets to do what I love every single day.
+                
+                    </p>
+                    <a href="https://www.pretty-and-ink.com/" target="_blank">Vist their website</a>
+                </li>
+                <li>
+                    <img src={vendor3} className="vendorsPhoto" alt="" />
+                    <h3 className="vendorsName">Veiled Rose Films</h3>
+                    <p className="vendorsService">Videographer</p>
+                    <p className="vendorsDescription">
+
+                  Brian Alan is a Colorado-based wedding videographer with over
+                  a decade of experience capturing love stories with emotional
+                  depth and cinematic flair. Through his brand, Veiled Rose
+                  Films, he offers luxury heirloom films handcrafted to preserve
+                  the real moments that matter most. With a calming presence and
+                  a commitment to storytelling, Brian blends seamlessly into the
+                  day, helping couples relive the joy, laughter, and heartfelt
+                  emotion of their wedding for years to come.
+                
+                    </p>
+                    <a href="https://www.veiledrosefilms.com/" target="_blank">Vist their website</a>
+                </li>
+                <li>
+                    <img src={vendor4} className="vendorsPhoto" alt="" />
+                    <h3 className="vendorsName">Natasha Clawson</h3>
+                    <p className="vendorsService">Marketing | Branding</p>
+                    <p className="vendorsDescription">
+                  Hey! I’m Natasha Clawson, and I specialize in helping
+                  high-achieving women—authors, speakers, coaches, and course
+                  creators—craft compelling brands and marketing systems that
+                  position them as leaders in their industry. My expertise spans
+                  branding, web development, social strategy, and digital
+                  marketing, all designed to help you attract your dream clients
+                  with confidence.
+                </p>
+                <a href="https://natashaclawson.com/" target="_blank">Vist their website</a>
+                </li>
+                <li>
+                    <img src={vendor5} className="vendorsPhoto" alt="" />
+                    <h3 className="vendorsName">Meesha</h3>
+                    <p className="vendorsService">Hairstylist</p>
+                    <p className="vendorsDescription">
+
+                  View Details (soon)
+                
+                    </p>
+                    
+                </li>
+                <li>
+                    <div className="vendorCTA">
+                        <h2>Would You Like to Join Our Vendor List?</h2>
+                    </div>
+                    <h3 className="vendorsName">Let's Chat!</h3>
+                    <Link to="/become-vendor">Become a Vendor</Link>
+                </li>
+
+
+            </ul>
+        </section>
+        
+        </>
+       
+    )
+}

@@ -1,0 +1,418 @@
+/*=====================HERO SECTION========================*/
+
+.heroCarousel img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+/*=====================SECTION-1========================*/
+.section-1 {
+  width: 100%;
+  background-color: var(--off-white)
+
+}
+.textSec1 {
+  padding: 1rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-1  h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.section-1 p {
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+}
+
+.bigImgs {
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+  
+}
+
+.photos {
+  position: relative;
+  flex: 1;
+  height: auto;
+  overflow: hidden;
+}
+
+.photos img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+
+
+}
+
+.img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3 ease;
+}
+
+.photos:hover .img2 {
+  opacity: 1;
+}
+
+
+.section-2{
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.textSec{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 24px;
+}
+
+
+.textSec p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.20rem;   
+  line-height: 1.9;  
+  margin-top: 1.2rem;
+}
+
+
+
+
+/*=====================CONTACT BUTTON========================*/
+.contactBtn {
+  display: block;
+  width: fit-content;
+  margin: 2rem auto 0;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: transparent;
+  text-decoration: none;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contactBtn:hover {
+  background: var(--verde-2);
+  color: white;
+}
+
+
+/*=====================SECTION-3========================*/
+
+.section-3 {
+  background-color: var(--off-white);
+  padding: 5rem 1rem;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  max-width: 1250px;
+  margin: 0 auto;
+  gap: 4rem;
+  align-items: start;
+}
+
+.visualSide {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.textSide{
+  align-self: start;
+  margin-left: 110px;
+}
+
+.textSide p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.20rem;   
+  line-height: 1.9;  
+  margin-top: 1.2rem;
+}
+
+.gifSec3 {
+  background-color: #fff;
+  padding: 16px;
+  width: fit-content;
+  
+  
+  
+}
+.gifSec3 img {
+  width: 100%;
+  max-width: 500px; 
+  height: auto;
+  display: block;
+}
+
+.polaroids {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.polaroids img {
+  position: absolute;
+  width: 250px;
+  background: #fff;
+  padding: 10px;
+  padding-bottom: 3rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.p1 {
+  top: -150px;
+  left: -25px;
+  transform: rotate(-8deg);
+}
+.p2 {
+  top: 100px;
+  left: 190px;
+  transform: rotate(6deg);
+}
+
+.p3 {
+  top: 180px;
+  left: -35px;
+  transform: rotate(5deg);
+}
+
+
+
+/*=====================SECTION-4========================*/
+
+.section-4 {
+margin: 2rem auto;
+  width: 100%;
+}
+
+.textSec4 {
+  max-width: 850px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding: 1.5rem;
+  font-family: "Public Sans", sans-serif ;
+  letter-spacing: 0.05em;
+
+}
+
+.sec4Pic {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 40px;
+  margin: 0 auto;
+  max-width: 1500px;
+  width: 100%;
+}
+
+.section-4 img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+
+/*=====================SECTION-5========================*/
+
+
+.section-5{
+  background-color: var(--off-white);
+  margin: 2rem;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.sec5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 600px;
+}
+
+.gif {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textSec5 {
+  padding-top: 2rem;
+}
+
+
+
+.textSec5 p {
+   max-width: 850px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding: 1.5rem;
+  font-family: "Public Sans", sans-serif ;
+  letter-spacing: 0.04em;
+}
+
+/*=====================SECTION-6========================*/
+
+.section-6, .section-7  {
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+
+
+.textSec6, .textSec6-2, .textSec7 p {
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1rem;
+ 
+  padding: 2rem 0 0 0;
+  font-family: "Public Sans", sans-serif ;
+  letter-spacing: 0.04em;
+}
+
+.textSec6-2 p {
+  font-size: 1.5rem;
+}
+
+.photoCollage1 , .photoCollage2 {
+  position: relative;
+  max-width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+
+}
+
+.img {
+  position: absolute;
+  object-fit: cover;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.50);
+  border-radius: .5rem;
+  
+ 
+}
+
+.img1{
+    width: 300px;
+    height: 400px;
+    left: 15px;
+    top: 160px;
+    z-index: 1;
+    
+}
+
+
+.img2Collage{
+    width: 300px;
+    height: 500px !important;
+    left: 300px !important;
+    top: 120px !important;
+    z-index: 1;
+}
+
+.img3{
+    width: 300px;
+    height: 400px;
+    left: 585px;
+    top: 170px;
+    z-index: 3;
+}
+
+.img4{
+    width: 300px;
+    height: 500px;
+    left:870px ;
+    top: 120px;
+    z-index: 3;
+}
+
+
+
+.img-5-2 {
+    width: 300px;
+    height: 400px;
+    left: 10px;
+    top: 160px;
+    z-index: 1;
+    
+}
+
+.img6{
+    width: 300px;
+    height: 500px ;
+    left: 300px ;
+    top: 120px ;
+    z-index: 1;
+}
+
+.img7{
+    width: 300px;
+    height: 400px;
+    left: 586px;
+    top: 170px;
+    z-index: 3;
+}
+
+.img8{
+    width: 300px;
+    height: 500px;
+    left:870px ;
+    top: 120px;
+    z-index: 3;
+}
+
+/*=====================SECTION-6========================*/
+.section-7  {
+  margin: 0 auto;
+}
+.sec7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 2rem;
+  gap: 40px;
+  width: 100%;
+ 
+ 
+}
+.textSec7 {
+  background-color: var(--off-white);
+  padding: 3rem;
+}
+
+
+
+.gifSec7 {
+ width: 100%;
+ height: auto;
+
+}
+
+.gifSec7 img {
+  width: 90%;
+  height: 500px;
+ 
+}

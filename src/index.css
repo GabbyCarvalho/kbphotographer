@@ -1,0 +1,201 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= VARIÁVEIS GLOBAIS ================= */
+:root {
+  --black-1: #000000;
+  --teal: #008080;
+  --gray: #696969;
+  --verde-musgo: #7a8f7b;
+  --verde-2:#416645;
+  --verde-frio: #5f7f73;
+  --off-white: #EFEAE4;
+  --white-ice: #F7F9FA;
+  --font-tittles:'Playfair Display', serif;
+  --font-text: "Public Sans", sans-serif;
+}
+
+/* ================= BASE ================= */
+body {
+  margin: 0;
+  padding-top: 120px;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+/* ================= HEADER ================= */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--verde-musgo);
+  
+
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem .5rem;
+  margin: 0;
+  
+}
+
+/* LOGO NA NAVBAR */
+.navLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navLogo img {
+  height: 42px;
+  width: auto;
+  cursor: pointer;
+}
+
+
+/* LINKS */
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: var(--white-ice);
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* FLAGS */
+.flags {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.flags img {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* LOGO */
+.logoArea {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo img {
+  max-height: 120px;
+  display: block;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.footerNav > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* TÍTULOS FOOTER */
+.titleFooter {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--verde-2);
+  margin-bottom: 0.75rem;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif !important;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+
+footer a.titleFooter {
+  color: var(--verde-2);
+}
+
+/* LINKS FOOTER */
+.footerNav a {
+  display: block;
+  text-decoration: none;
+  color: var(--black-1);
+  font-family: "Public Sans", sans-serif;
+}
+
+/* TEXTO FOOTER */
+.regularText p {
+  color: var(--black-1);
+  line-height: 1.6;
+  margin: 0.3rem 0;
+  font-family: "Public Sans", sans-serif; 
+}
+.regularText {
+  font-family: "Public Sans", sans-serif;
+}
+/* SOCIAL */
+.socialIcons {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.socialIcons i {
+  font-size: 32px;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.socialIcons i:hover {
+  color: var(--verde-2);
+  transform: scale(1.1);
+}
+
+
+

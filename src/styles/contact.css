@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+/* ============== HERO SECTION ===============*/
+
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-wrapper {
+  height: 120%;
+  width: 100%;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+
+
+  animation: moveUp 20s linear infinite;
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(-10%);
+  }
+  to {
+    transform: translateY(-22%);
+  }
+}
+
+
+/* ============== SAY YES SECTION ===============*/
+.sayYes {
+  font-family: 'Cormorant Garamond', serif !important;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 3rem;
+  color: var(--verde-2);
+  letter-spacing: 0.02em;
+
+
+  text-align: center;
+ 
+  padding: 5rem;
+  background-color: #EFEAE4;;
+  
+}
+
+
+/* ============== CONTACT ME INFO ===============*/
+
+
+.imgBackground{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 800px;
+   
+   
+}
+
+.side-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+padding: 3rem;
+
+
+
+background: rgba( 255, 255, 255, 0.75);
+backdrop-filter: blur(4px);
+
+font-family: "Public Sans", sans-serif;
+font-size: 1.07rem;
+line-height: 1.7;
+text-align: justify;
+
+
+
+  
+}
+
+
+
+
+
+/* ============== FORM SECTION ===============*/
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1.4fr 1.2fr;
+  grid-template-areas:
+  "image form"
+  "text form"
+  ;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 3rem auto;
+  align-items: start;
+}
+
+.contactForm {
+    background: white;
+    padding: 2.5rem;
+    grid-area: form;
+}
+
+.imageForm{
+    grid-area: image;
+}
+.imageForm img {
+    width: 100%;
+    height: 1250px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+
+/* ============== PHOTO COLLAGE  SECTION ===============*/
+
+.photoCollage{
+padding: 2rem 0;
+
+    
+}
+
+.footerCollage{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 760px;
+    margin: 0 auto;
+   
+    
+    
+}
+
+.img {
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    
+    
+}
+
+.img-1 {
+    width: 300px;
+    height: 400px;
+    left: -125px;
+    top: 160px;
+    z-index: 6;
+   
+}
+
+.img-2 {
+    width: 300px;
+    height: 500px;
+    left: 160px;
+    top: 120px;
+    z-index: 2;
+
+}
+
+.img-3 {
+    width: 300px;
+    height: 400px;
+    left: 445px;
+    top: 170px;
+    z-index: 4;
+}
+
+.img-4{
+    width: 300px;
+    height: 500px;
+    left:730px ;
+    top: 120px;
+    z-index: 4;
+}
+
+.img-5{
+    width: 300px;
+    height: 400px;
+    left: 1015px;
+    top: 160px;
+    z-index: 5;
+}
+
+.frame {
+  position: absolute;
+  background: white;
+  padding: 25px;
+  border: 15px solid #000000;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+  
+}
+
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

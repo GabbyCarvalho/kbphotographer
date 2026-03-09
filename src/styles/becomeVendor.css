@@ -1,0 +1,16 @@
+.vendorsForm-Sec {
+    padding: 2rem;
+   
+}
+
+.vendorsForm {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.textVendors {
+    font-size: 1.20rem;   
+  line-height: 1.8;  
+  font-family: "Public Sans", sans-serif;
+}

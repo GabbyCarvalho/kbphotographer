@@ -1,0 +1,133 @@
+/* ============== HERO SECTION ===============*/
+
+.hero-Faq {
+    width: 100%;
+
+    background-color: var(--off-white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: clamp(220px, 25vw, 380x) ;
+  
+}
+.hero-inner {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
+
+.polaroid-group {
+    position: relative;
+    max-width: 1250px;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    
+}
+
+
+.polaroid {
+
+    width: 350px;
+    background: white;
+    padding: 10px 10px 40px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.polaroid img {
+  width: 100%;
+  display: block;
+}
+
+.hero-inner .polaroid-group:nth-child(1){
+    transform: translateY(40px);
+    
+}
+.hero-inner .polaroid-group:nth-child(2){
+    z-index: 2;
+    
+}
+.hero-inner .polaroid-group:nth-child(3){
+    transform: translateY(20px);
+    
+}
+
+
+
+/* ============== TITLE SECTION ===============*/
+
+.faqTitle {
+    margin: 2rem;
+}
+.tittle {
+    font-size: 2.5rem;
+}
+
+/* ============== ACCORDION SECTION ===============*/
+
+
+
+
+
+/* Container geral */
+.accordion-section {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Cada accordion */
+.accordion {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Botão / título */
+.accordion-header {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Conteúdo (FECHADO por padrão) */ 
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.accordion-content p {
+    font-family: "Public Sans", sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 1.7;
+}
+
+/* Conteúdo (ABERTO) */
+.accordion-content.open {
+    max-height: 1000px;
+}
+
+
+/* Texto interno */
+.accordion-content p {
+    margin: 0 0 20px;
+}
+
+
+
+
+

@@ -1,0 +1,30 @@
+.policy {
+    margin: 2rem 2rem;
+}
+
+.policy-wrapper{
+    max-width: 1200px;
+    width: 800px;
+    margin: 0 auto;
+    font-family: "Public Sans", sans-serif;
+    letter-spacing: 0.08em;
+    
+    
+}
+
+.policy-wrapper h2 {
+    padding: 1rem;
+}
+
+.policy-wrapper p {
+    padding: .7rem;
+    
+}
+
+.policy-wrapper .textP {
+    line-height: 1.7;
+}
+
+.policy-wrapper .textCenter {
+    text-align: center;
+}

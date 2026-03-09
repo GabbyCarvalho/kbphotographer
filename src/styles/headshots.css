@@ -1,0 +1,372 @@
+
+/*============================INTRO/BUBBLE SECTION=========================*/
+
+.headshotsWrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+    padding: 80px 20px;
+
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.headshotsWrapper img {
+    width: 250px;
+    aspect-ratio: 1 / 1 ;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.headshotsWrapper img:nth-child(1) {
+    grid-column: 1 / 3;
+}
+
+.headshotsWrapper img:nth-child(2) {
+    grid-column: 3 / 5;
+}
+
+.headshotsWrapper img:nth-child(3) {
+    grid-column: 5 / 7;
+}
+
+.headshotsWrapper img:nth-child(4) {
+    grid-column: 2 / 4 ;
+    
+}
+
+.headshotsWrapper img:nth-child(5) {
+    grid-column: 4 / 6 ; 
+   
+}
+
+
+.introDiv, .serving {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Public Sans", sans-serif;
+    padding: 2rem;
+    
+}
+
+/*============================MIDDLE SECTION=========================*/
+.middleSection, .middleCardsSection, .packageSection {
+    margin: 0 auto;
+    align-items: center;
+    padding: 2rem;
+
+
+
+}
+
+.textMiddle p {
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 1.55; 
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    font-family: "Public Sans", sans-serif;
+   
+    
+}
+
+.middleCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    max-width: 1320px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--verde-frio);
+    color: #fff;
+    font-family:"Public Sans", sans-serif ;
+    padding: 2rem 2rem 1.5rem;
+    letter-spacing: 0.04em;
+    line-height: 1.6;
+}
+.cardLeft h2 {
+    color: #fff;
+}
+
+.cardLeft p {
+    margin-top: .5rem;
+    padding-top: 1rem;
+}
+
+.cardRight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     grid-template-rows: 280px 280px;
+    gap: 20px;
+}
+
+.cardRight .top {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.cardRight .bottom {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.cardRight .center {
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.cardRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*============================PACKAGE SECTION=========================*/
+
+.packageCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    max-width: 1320px;
+    margin: 0 auto;
+    align-items: stretch;
+    
+}
+/*============================CARD LEFT=========================*/
+.cardLeft-2 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+
+.cardLeft-2 img {
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid var(--off-white);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.40);
+}
+
+.imgMain {
+    width: 400px;
+    height: 400px;
+    top: 80px;
+    left: -50px;
+    z-index: 1;
+}
+
+.imgTop{
+    width: 200px;
+    height: 200px;
+    top: 5px;
+    right: 30px;
+    z-index: 2;
+
+    object-fit: cover;
+    object-position: center 5%;
+}
+.imgMiddle{
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    right: 10px;
+    z-index: 3;
+}
+.imgBottom{
+    width: 200px;
+    height: 200px;
+    bottom: -80px;
+    left: 230px;
+    z-index: 2;
+
+    object-fit: cover;
+    object-position: center 25%;
+}
+/*============================CARD RIGHT=========================*/
+.cardRight-2 {
+    padding: 2rem 2rem 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: "Public Sans", sans-serif;
+    letter-spacing: 0.07em;
+    line-height: 1.8;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.40);
+    margin: 0 auto;
+    
+}
+.cardRight-2 p {
+    padding-top: 1rem;
+    
+}
+.cardRight-2 .bold {
+    font-weight: bold;
+}
+
+
+/*============================FINAL SECTION=========================*/
+
+
+.finalSection {
+   margin: 4rem  0 ;
+    
+}
+
+.finalSectionWrapper{
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--off-white);
+    max-width: 1200px;
+
+    
+}
+
+.finalSectionText {
+    padding: 2rem ;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-family: "Public Sans", sans-serif;
+    letter-spacing: 0.07em;
+    line-height: 1.8;
+    margin: 0 auto;
+}
+.finalSectionText p {
+    padding-top: 1rem;
+}
+
+.finalSectionPhotos {
+    display: flex;
+    gap: 10px;
+    padding: 2rem;
+   
+}
+
+.finalSectionPhotos img {
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/*============================LOCATION SECTION=========================*/
+
+.locationSection{
+    margin: 0 auto;
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.location{
+    display: flex;
+    margin: 0 auto;
+    max-width:1000px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.40);
+    border-radius: 1.5rem;
+}
+
+.location img{
+    width: 60%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+.locationInfo {
+    width: 40%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.location p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--verde-frio);
+}
+
+.locationInfo a {
+     font-family: "Public Sans", sans-serif;
+    color: black;
+    line-height: 1.6;
+}
+
+
+/*============================WHO AM I=========================*/
+
+.photographerSection {
+    margin: 0 auto;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.photographer {
+    display: flex;
+    margin: 0 auto;
+    max-width:1000px;
+
+}
+
+.photographerPic img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center 20%;
+    
+    
+}
+
+.photographerIntro{
+    width: 40%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.photographerIntro h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--verde-frio);
+}
+
+.photographerIntro p, a {
+    font-family: "Public Sans", sans-serif;
+    color: black;
+    line-height: 1.6;
+    
+}
+
+.aboutPhotographer {
+    max-width: 1200px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: var(--off-white);
+    padding: 2rem 2rem;
+}
+.aboutPhotographer p {
+    font-family: "Public Sans", sans-serif;
+    letter-spacing: 0.07em;
+    line-height: 1.8;
+}
+
+.aboutPhotographeTittle {
+    font-family: "Public Sans", sans-serif;
+    letter-spacing: 0.07em;
+    line-height: 1.8;
+}
