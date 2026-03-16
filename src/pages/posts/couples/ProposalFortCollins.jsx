@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function ProposalFortCollins () {
     return (
@@ -32,6 +33,19 @@ export default function ProposalFortCollins () {
         Want to make your sunrise proposal in Colorado (maybe near Fort Collins) something you’ll never forget? I’ll help you plan every detail, find the perfect location, and capture the entire moment beautifully.
 
         💍 Let’s make it happen. Book your date here</script><template data-pt-type='blog' data-pt-slideshowid='68cbb18ed4462907fe1d6772' ></template><script src='https://gallery.kbphotographer.com/-rtsunrisesurpriseengagementproposalhorsetoothreservoirfortcollins/slideswebcomponentembed.js/68cbb18ed4462907fe1d6772?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='68cbb18ed4462907fe1d6772'></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section> 
         </>
     )
 }

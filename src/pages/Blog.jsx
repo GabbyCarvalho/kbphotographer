@@ -1,23 +1,30 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { posts } from "./posts";
-import "../styles/blog.css"
-
+import "../styles/blog.css";
 
 export default function Blog() {
   const [selectedCategory, setSelectedCategory] = useState("all");
+
+  // categorias
   const categories = [
-  "all",
-  ...new Set(posts.map(post => post.categoryFolder))
-];
+    "all",
+    "couples",
+    "family",
+    "maternity",
+    "portraits",
+    "personal-branding",
+    "sports",
+    "others"
+  ];
+
+  // FILTRO 
   const filteredPosts =
     selectedCategory === "all"
       ? posts
       : posts.filter(post => post.categoryFolder === selectedCategory);
 
-
   return (
-    <>
     <div className="blog-wrapper">
 
       {/* CATEGORIAS */}
@@ -29,45 +36,40 @@ export default function Blog() {
             className={selectedCategory === cat ? "active" : ""}
           >
             {cat
-              .replace("-", " ")
-              .replace(/\b\w/g, l => l.toUpperCase())
-            }
+              .replaceAll("-", " ")
+              .replace(/\b\w/g, l => l.toUpperCase())}
           </button>
         ))}
       </div>
 
+      {/* CARDS */}
+      <div className="blog-container">
+        {filteredPosts.map((post) => (
+          <Link
+            key={post.slug}
+            to={`/blog/${post.slug}`}
+            className="blog-link"
+          >
+            <div className="blog-card">
 
+              <div className="imageBlog-wrapper">
+                <img src={post.image} alt={post.title} />
+              </div>
 
-        {/* CARDS */}
-        <div className="blog-container">
-        {filteredPosts.map((post)=> (
-          <Link 
-            key={post.slug} 
-            to={`/blog/${post.slug}`} 
-            className="blog-link">
-
-              <div className="blog-card">
-
-                <div className="imageBlog-wrapper">
-                  <img src={post.image} alt={post.title} />
-                </div>
-              
-                <div className="card-content">
-                  <h2>{post.title}</h2>
-                  <h3 className="category">{post.category}</h3>
-                  <p className="excerpt">{post.excerpt}</p>
-                  <span className="read-more">Continue reading</span>
-                </div>
+              <div className="card-content">
+                <h2>{post.title}</h2>
+                <h3 className="category">{post.category}</h3>
+                <p className="excerpt">{post.excerpt}</p>
+                <span className="read-more">Continue reading</span>
+              </div>
 
             </div>
           </Link>
-
         ))}
-        </div>
-    </div>
-    </>
-  )
-}
+      </div>
 
+    </div>
+  );
+}
 
 

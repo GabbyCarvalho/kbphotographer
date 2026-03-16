@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function Surprise () {
     return(
@@ -33,6 +34,19 @@ export default function Surprise () {
             <script src='https://gallery.kbphotographer.com/-blogs/slideswebcomponentembed.js/6969a80a07532c9ef07548d3?features=lightbox,pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='6969a80a07532c9ef07548d3'></script>"
 
             />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section> 
             </>
     )
 }

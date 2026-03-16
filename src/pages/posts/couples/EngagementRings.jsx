@@ -1,5 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
-
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 export default function EngagementRings() {
     return (
         <>
@@ -51,6 +51,19 @@ export default function EngagementRings() {
         💍 Let’s plan your surprise engagement session together.
         Book your Engagement Proposal Photographer.</script><template data-pt-type='blog' data-pt-slideshowid='68e60828727afe7a7a1b931a' ></template><script src='https://gallery.kbphotographer.com/-blogs/slideswebcomponentembed.js/68e60828727afe7a7a1b931a?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='68e60828727afe7a7a1b931a'></script>`} />
 
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section> 
                 </>
     )
 }

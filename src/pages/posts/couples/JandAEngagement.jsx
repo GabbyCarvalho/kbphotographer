@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function JandAEngagement() {
     return(
@@ -27,6 +28,19 @@ export default function JandAEngagement() {
         Let’s plan something beautiful together.
         📍 Based in Colorado | Available for travel
         </script><template data-pt-type='blog' data-pt-slideshowid='683b4d9664c1e5166837fb56' ></template><script src='https://kbphotographer.pic-time.com/-jaengagementproposal/slideswebcomponentembed.js/683b4d9664c1e5166837fb56?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='683b4d9664c1e5166837fb56'></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>    
         </>
     )
 }

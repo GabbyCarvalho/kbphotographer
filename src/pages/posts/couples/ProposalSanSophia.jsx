@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function ProposalSanSophia () {
     return (
@@ -41,6 +42,20 @@ export default function ProposalSanSophia () {
         Planning a proposal can be stressful, but it doesn’t have to be. I’ll help you choose the perfect location, time it for the best light, and capture every moment so you can relive it forever.
 
         💍 Let’s make your Telluride proposal unforgettable. [Book your session today! </script><template data-pt-type='blog' data-pt-slideshowid='68cbbda2287cf277a7ae1aa3' ></template><script src='https://gallery.kbphotographer.com/-tasurpriseengagementproposalsansophiaoverlooktelluride/slideswebcomponentembed.js/68cbbda2287cf277a7ae1aa3?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='68cbbda2287cf277a7ae1aa3'></script>`} />
-                </>
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section> 
+
+</>
     )
 }

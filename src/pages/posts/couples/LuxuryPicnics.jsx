@@ -1,7 +1,9 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function LuxuryPicnics() {
     return(
+        <>
         <PicTimePost
         embedCode=" <script>
         const searchread_6944161e7c2baeebd6e82b2d = `Brightfolk gatherings
@@ -89,5 +91,20 @@ export default function LuxuryPicnics() {
         AT YOUR CHOSEN LOCATION IN COLORADO`;
             </script>"
             />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section> 
+
+    </>
     )
 }

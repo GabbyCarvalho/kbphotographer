@@ -1,9 +1,11 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed"; 
 
 
 
 export default function FamilyPortraits() {
     return (
+        <>
         <PicTimePost 
         embedCode=" <script> const searchread_6956df573d2b5bf4ca9d869c = `Winter Family Portraits | Keystone | Pass Lake | Colorado
             November 2025
@@ -33,5 +35,20 @@ export default function FamilyPortraits() {
             Ready to create something unforgettable this winter?
             When visiting Colorado or if you call these mountains home, let’s plan a winter family portrait session that feels natural, joyful, and true to you and your family. Reach out to start planning your Loveland Pass session and turn this season into memories you’ll hold onto for years.`;</script><template data-pt-type='blog' data-pt-slideshowid='6956df573d2b5bf4ca9d869c' ></template><script src='https://gallery.kbphotographer.com/-bfamilyportraitskeystonecolorado/slideswebcomponentembed.js/6956df573d2b5bf4ca9d869c?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='6956df573d2b5bf4ca9d869c'></script>"
             />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
+
+    </>
     )
 }

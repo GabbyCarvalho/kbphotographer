@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function ProposalBotanicGardens () {
     return (
@@ -18,6 +19,19 @@ export default function ProposalBotanicGardens () {
 
 
         Planning a surprise proposal? Give yourself at least two weeks to map out the perfect moment. Whether it’s at the Denver Botanic Gardens, a serene pond, or another meaningful Colorado location, I’ll help you plan every detail and capture it beautifully. Together, we’ll create timeless portraits and candid photos that let you relive the joy for years to come. Begin your adventure by sending a note below.</script><template data-pt-type='blog' data-pt-slideshowid='68cba884d74da8d80cebdc56' ></template><script src='https://gallery.kbphotographer.com/-absurpriseengagementproposaldenverbotanicgardens/slideswebcomponentembed.js/68cba884d74da8d80cebdc56?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='68cba884d74da8d80cebdc56'></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section> 
         </>
     )
 }

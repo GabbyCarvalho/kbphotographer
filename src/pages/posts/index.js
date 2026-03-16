@@ -1,4 +1,3 @@
-import Template from "./others/Template";
 
 
 import Surprise from "./couples/Surprise";
@@ -82,19 +81,165 @@ import CasualPortraitSession from "./portraits/CasualPortraitSession";
 import portrait2 from "../../assets/posts/portraits/springPortraitLilyLake.jpg"
 import SpringPortraitAtLilyLake from "./portraits/SpringPortraitAtLilyLake";
 
+import keystone from "../../assets/posts/sports/keystonePark.jpg"
+import KeystonePark from "./sports/KeystonePark";
+
+import graduation1 from "../../assets/posts/portraits/graduationPanamaCityBeach.jpg"
+import GraduationPanamaCityBeach from "./portraits/GraduationPanamaCityBeach";
+
+import nederland from "../../assets/posts/portraits/NederlandPortrait.jpg"
+import NederlandPortrait from "./portraits/NederlandPortrait";
+
+import jadedbeaty from "../../assets/posts/others/jadedBeauty.jpg"
+import JadedBeauty from "./others/JadedBeaty";
+
+import lights from "../../assets/posts/others/lights1.jpg"
+import PhotoLamps from "./others/PhotoLamps";
+
+import meesha from "../../assets/posts/personal-branding/Meesha.jpg"
+import BrandingPhotoshoot from "./personal-branding/BrandingPhotoshoot";
+
+import proposingAtLily from "../../assets/posts/couples/proposingAtLilyLake.jpg"
+import ProposingAtLilyLake from "./couples/ProposingAtLilyLake";
+
+import kaPhotographer from "../../assets/posts/personal-branding/KBP.jpg"
+import ReadyForBrandingShoot from "./personal-branding/ReadyForBrandingShoot";
+
+import familyHoliday from "../../assets/posts/family/familyHolidayAtSapphire.jpg"
+import HolidayAtSapphire from "./family/HolidayAtSapphire";
+
+import realm from "../../assets/posts/personal-branding/realm-interiors-1.jpg"
+import OutdoorOrStudio from "./personal-branding/OutdoorOrStudio";
+
+import meesha2 from "../../assets/posts/personal-branding/Meesha2.jpg"
+import HowGetReadyForBrandingShoot from "./personal-branding/HowGetReadyForBrandingShoot";
+
+import meesha3 from "../../assets/posts/personal-branding/Meesha3.jpg"
+import MeeshaHairstylist from "./others/MeeshaHairstylist";
+
+import greenAndBrowPallete from "../../assets/posts/others/GreenAndBrownColorPalette.jpg"
+import DatingPhotoSession from "./others/DatingPhotoSession";
+
+import professionalPic from "../../assets/posts/others/Why_You_Need_Professional_Photos_for_Your_Dating_Profile_kbphotographer_colorado_denver.webp"
+import ProfessionalPicForDating from "./others/ProfessionalPicForDating";
+
+import basketball from "../../assets/posts/sports/basketball.jpg"
+import BasketballTournament from "./sports/BasketballTournament";
+
+import n15 from "../../assets/posts/others/N15.jpg"
+import HowToUseBranding from "./others/HowToUseBranding";
+
+import outdoorPhoto from "../../assets/posts/others/outdoorPhoto.jpg"
+import WhatToWear from "./others/WhatToWear";
+
+import i70 from "../../assets/posts/sports/i70.jpg"
+import SnowboardingExperienceI70 from "./sports/SnowboardingExperienceI70";
+
+import galentinesJam from "../../assets/posts/sports/galentinesJam.jpg"
+import GalentinesLadiesRailJam from "./sports/GalentinesLadiesRailJam";
+
+import rubyHill from "../../assets/posts/sports/rubyHill.gif"
+import RubyHillOpening2025 from "./sports/RubyHillOpenning2025";
+
+import photoCollage from "../../assets/posts/others/download3.jpg"
+import HowToAccessPhotos from "./others/HowToAccessPhotos";
+
+import valentines from "../../assets/posts/others/valentines.jpg"
+import ValentinesGalentines2025 from "./others/ValentinesGalentines2025";
+
+import a from "../../assets/posts/sports/a.jpg"
+import ASnowExperience from "./sports/ASnowExperience";
+
+import loveland from "../../assets/posts/couples/lovelandPass.jpg"
+import LovelandPassDillon from "./couples/LovelandPassDillon";
+
+import moutainBoarding from "../../assets/posts/sports/MoutainBoardingRuby.jpg"
+import MoutainBoardingRubyHill2025 from "./sports/MountainBoardingRubyHill2025";
+
+import tessa from "../../assets/posts/portraits/tessa.jpg"
+import Tessa from "./portraits/Tessa";
+
+import jk from "../../assets/posts/couples/JK.jpg"
+import JKSurpriseEngagement from "./couples/JKSurpriseEngagement";
+
+import kleinFamily from "../../assets/posts/family/kleinFamily.jpg"
+import KleinFamily from "./family/KleinFamily";
+
+import RL from "../../assets/posts/couples/R&L.jpg"
+import RLEngagement from "./couples/RLEngagement";
+
+import mirlene from "../../assets/posts/family/mirlene.jpg"
+import MirleneMaternitySession from "./maternity/MirleneMaternitySession";
+
+import elopementLocations from "../../assets/posts/couples/elopementLocations.jpg"
+import ElopementLocations from "./couples/ElopementLocations";
+
+import hfamily from "../../assets/posts/family/hfamily.jpg"
+import hFamily from "./family/hFamily";
+
+import maternity2 from "../../assets/posts/family/maternity2.jpg"
+import MaternitySessionGeneseePark from "./maternity/MaternitySessionGeneseePark";
+
+import outdoorPortraits from "../../assets/posts/portraits/outdoorPortraits.jpg"
+import CapturingOutdoorPortraits from "./portraits/CapturingOutdoorPortraits";
+
+import navigatingPermits from "../../assets/posts/couples/navigatingPermits.jpg"
+import NavigatingPermits from "./couples/NavigatingPermits";
+
+import kbphotographer from "../../assets/posts/others/kbphotographer.jpg"
+import PhotographerHeightMatters from "./others/PhotographerHeightMatters";
+
+import dillon from "../../assets/posts/sports/SkiAndSnowboardingNearDillon.jpg"
+import Dillon from "./sports/Dillon";
+
+import sarahPortrait from "../../assets/posts/portraits/sarahPortrait.jpg"
+import PreparingPortraitSession from "./portraits/PreparingPortraitSession";
+
+import karly from "../../assets/posts/family/karlyMaternitySession.jpg"
+import KarlyMaternitySession from "./maternity/KarlyMaternitySession";
+
+import Locations from "./couples/Locations";
+
+import microWedding from "../../assets/posts/couples/microWeddingWA.jpg"
+import MicroWeddingWa from "./couples/MicroWeddingWa";
+
+import headshotsDenver from "../../assets/posts/portraits/headshotsDenver.jpg"
+import HeadshotsInDenver from "./personal-branding/HeadshotsInDenver";
+
+import maternitySessionLakewood from "../../assets/posts/family/maternitySessionLakewood.jpg"
+import MaternityLakewoodPark from "./maternity/MaternityLakewoodPark";
+
+import landscape from "../../assets/posts/others/landscape.jpg"
+import Landscape from "./others/Landscape";
+
+import khi from "../../assets/posts/personal-branding/khi.jpg"
+import Khi from "./personal-branding/Khi";
+
+import donna from "../../assets/posts/sports/donna.jpg"
+import Donna from "./sports/Donna";
+
+import flavia from "../../assets/posts/sports/flavia.jpg"
+import Flavia from "./sports/Flavia";
+
+import keystone2023 from "../../assets/posts/sports/keystone2023.jpg"
+import Keystone2023 from "./sports/Keystone2023";
+
+import walker from "../../assets/posts/others/walker.jpg"
+import Pets from "./others/Pets";
+
+import nettie from "../../assets/posts/sports/nettie.jpg"
+import Nettie from "./sports/Nettie";
+
+import sam from "../../assets/posts/sports/sam.jpg"
+import Sam from "./sports/Sam";
+
+import brad from "../../assets/posts/sports/brad.jpg"
+import Brad from "./sports/Brad";
+
+
+
+
 export const posts = [
-        {
-        slug: "template",
-        categoryFolder: "family",
-        title: "template",
-        category: "template",
-        excerpt: "template",
-        image: family3,
-        component:Template
-    },
-
-
-
 
     {
         slug: "surprise-proposal",
@@ -173,15 +318,7 @@ export const posts = [
         component: ElopingSnowOutfit
     },
 
-        {
-        slug: "virtual-meetings",
-        categoryFolder: "personal-branding",
-        title: "Backdrops for Virtual Meetings",
-        category: "New Product",
-        excerpt: "I’ve explored virtual backgrounds — but not the cheesy clipart kind. I want something clean, professional, and true to who I am: someone grounded in nature, with a love for light, space, and the Colorado peaks. That’s why I built a collection of custom virtual backgrounds inspired by the mountains, minimalism, and my photography style.",
-        image: zoom1,
-        component: BackdropsMeetings
-    },
+
 
         {
         slug: "surprise-engagement-rocky-mountain",
@@ -255,7 +392,7 @@ export const posts = [
     },
 
         {
-        slug: "surprise-proposal-botanic-gardens",
+        slug: "family-photograph-session-at-maroon-bells",
         categoryFolder: "family",
         title: "A Family Session at Maroon Bells",
         category: "Returning Clients, Timeless Memories",
@@ -365,20 +502,517 @@ export const posts = [
         component:SpringPortraitAtLilyLake
     },
 
+        {
+        slug: "graduation-session-panama-city-beach",
+        categoryFolder: "portraits",
+        title: "Graduation Photo Session in Panama City Beach, FL & Dothan, AL",
+        category: "Graduation Portrait Session",
+        excerpt: "Some weekends don’t go as planned — and sometimes, that’s what makes them unforgettable. I flew down to Florida to document a graduation weekend full of joy, emotion, and yes… a whole lot of rain. It poured almost nonstop in Panama City Beach, but every time the sky gave us a break, we grabbed the cap, gown, and camera, and ran down to the shore. The beach might’ve been grey, but the energy? Warm, proud, buzzing with excitement.",
+        image: graduation1,
+        component:GraduationPanamaCityBeach
+    },
+
+        {
+        slug: "laid-back-mens-portrait-session-nederland",
+        categoryFolder: "portraits",
+        title: "Laid-Back Men's Portrait Session in the Colorado Mountains | Nederland, CO",
+        category: "Portrait Session",
+        excerpt: "There’s something raw and honest about a quiet morning in Nederland. The town still feels untouched by time — mountain air crisp, the trail around Barker Reservoir calm and steady, just like the people who love this place.",
+        image: nederland,
+        component:NederlandPortrait
+    },
+
+        {
+        slug: "jaded-beauty",
+        categoryFolder: "others",
+        title: "Creating With Intention: A Content Session With Jaded Beauty",
+        category: "Branding | Content Creation",
+        excerpt: "Some brands just get it — that beauty runs deeper than the surface. That’s exactly what I felt when I stepped into the space with Jaded Beauty. This wasn’t just a content shoot. It was a moment of reflection, strength, and creativity — captured through intentional visuals that feel personal and true to who they are.",
+        image: jadedbeaty,
+        component:JadedBeauty
+    },
+
+        {
+        slug: "bringing-memories-to-light",
+        categoryFolder: "others",
+        title: "Bringing Memories to Light",
+        category: "by KB Photographer with DP Designs Stuff",
+        excerpt: "I believe photographs are meant to be seen, felt, and lived with... not just stored on a hard drive. That’s why I’m always looking for meaningful ways to help my clients bring their images to life. Recently, I started collaborating with Dax, the founder of DPDesignsStuff. His story and his creations moved me deeply , and I think they might move you too. What he’s created is more than just a product. It’s a way to revisit your most cherished memories through something you can see, touch, and turn on at the end of the day. I’m honored to give Dax the floor to share his journey and the inspiration behind the MemoriGlow Lamp, a one-of-a-kind lamp made to illuminate your favorite photographs. Hi, I’m Dax, the creator of DPDesignsStuff.",
+        image: lights,
+        component:PhotoLamps
+    },
+
+        {
+        slug: "branding-photoshoot-in-denver",
+        categoryFolder: "personal-branding",
+        title: "Branding Photography in Denver: What's Out There and What Does It Cost?",
+        category: "by KB Photographer",
+        excerpt: "Looking for affordable branding photography in Denver or Broomfield, CO? Explore top local photographers—including KB Photographer—offering authentic brand sessions for small businesses, creatives, and entrepreneurs. Compare pricing, packages, and find the perfect fit for your brand story.",
+        image: meesha,
+        component:BrandingPhotoshoot
+    },
+
+        {
+        slug: "proposing-at-lily-lake-colorado",
+        categoryFolder: "couples",
+        title: "Proposing at Lily Lake, Colorado",
+        category: "by KB Photographer",
+        excerpt: "There’s something quietly powerful about Lily Lake. Tucked just south of Estes Park, with mirror-like reflections of the mountains and the peaceful hum of pine trees, this little alpine lake is a dreamy spot to pop the question. Whether your love story is just beginning or many years in the making, Lily Lake welcomes all couples to celebrate love in the heart of the Rockies...",
+        image: proposingAtLily,
+        component:ProposingAtLilyLake
+    },
+
+        {
+        slug: "ready-for-a-branding-shoot",
+        categoryFolder: "personal-branding",
+        title: "How to Know When You’re Ready for a Branding Shoot",
+        category: "by KB Photographer",
+        excerpt: "You’re building something beautiful—from scratch, from your heart, from your vision. But then that little voice comes in: “Am I really ready for photos? Should I wait until everything’s perfect?” The short answer? You don’t need to be perfect —you just need to be real. And that’s more than enough. As a lifestyle and branding photographer, I’ve helped so many entrepreneurs, creatives, and small business owners through this exact moment: the in-between. The almost ready. The “I’m still figuring it out.” If that’s where you are, this one’s for you.",
+        image: kaPhotographer,
+        component:ReadyForBrandingShoot
+    },
 
 
+        {
+        slug: "family-holiday-at-sapphire-point",
+        categoryFolder: "family",
+        title: "Family Holiday Photos at Sapphire Point Overlook",
+        category: "by KB Photographer",
+        excerpt: "The magic of the holiday season isn’t just in the decorations or the gifts—it’s in the moments you share with the people you love. Imagine bundling up with your family, stepping into the snowy landscape, and capturing those precious, candid moments that will last a lifetime. A snow experience family session isn’t just about beautiful photos; it’s about the memories you make while we’re together in the mountains, surrounded by the peaceful embrace of nature.",
+        image: familyHoliday,
+        component:HolidayAtSapphire
+    },
+
+        {
+        slug: "outdoor-vibes-or-studio",
+        categoryFolder: "personal-branding",
+        title: "Outdoor Vibes or Studio Style? Your Branding Session, Your Way",
+        category: "by KB Photographer",
+        excerpt: "If you’re a woman entrepreneur in Colorado, your branding session isn’t just about headshots—it’s about capturing your confidence, passion, and the essence of your brand. Whether you're launching something new, rebranding, or simply ready to show up more you in your business, this is a milestone worth celebrating. And the best way to approach it? Make it a full experience—from the night before to the post-session celebration.",
+        image: realm,
+        component:OutdoorOrStudio
+    },
+
+        {
+        slug: "get-ready-for-brading-shoot",
+        categoryFolder: "personal-branding",
+        title: "How to Get Ready for Your Branding Session",
+        category: "by KB Photographer",
+        excerpt: "If you’re a woman entrepreneur in Colorado, your branding session isn’t just about headshots—it’s about capturing your confidence, passion, and the essence of your brand. Whether you're launching something new, rebranding, or simply ready to show up more you in your business, this is a milestone worth celebrating. And the best way to approach it? Make it a full experience—from the night before to the post-session celebration.",
+        image: meesha2,
+        component:HowGetReadyForBrandingShoot
+    },
+
+        {
+        slug: "new-hairstylist-meesha",
+        categoryFolder: "others",
+        title: "Bringing a Fresh Look to a New Denver Hairstylist",
+        category: "by KB Photographer",
+        excerpt: "There’s something special about watching someone step into their brand with confidence. I recently had the chance to do a branding session with Mesha Harris, a talented hairstylist launching her business in Denver, and let me tell you—she’s got the energy, passion, and talent to make you feel amazing in her chair.",
+        image: meesha3,
+        component:MeeshaHairstylist
+    },
+
+        {
+        slug: "how-to-get-ready-to-dating-photo-session",
+        categoryFolder: "others",
+        title: "How to Get Ready for Your Dating Profile Photo Session",
+        category: "by KB Photographer",
+        excerpt: "So, you’ve booked your dating profile photo session—awesome! Now, let’s make sure you get the most out of it. These photos are all about showing you at your best, so a little prep goes a long way. Here’s what you need to know before we meet up.",
+        image: greenAndBrowPallete,
+        component:DatingPhotoSession
+    },
+
+        {
+        slug: "professional-photos-for-dating-profile",
+        categoryFolder: "others",
+        title: "Why You Need Professional Photos for Your Dating Profile",
+        category: "by KB Photographer",
+        excerpt: "You have mere seconds to capture someone’s attention. A well-lit, high-quality photo immediately conveys confidence, authenticity, and effort. It shows that you take yourself (and dating) seriously, which can be incredibly attractive.",
+        image: professionalPic,
+        component:ProfessionalPicForDating
+    },
+
+        {
+        slug: "basketball-tournament",
+        categoryFolder: "sports",
+        title: "Community Basketball Tournament | The Basketball Social House",
+        category: "by KB Photographer",
+        excerpt: "I had the honor of capturing the excitement and camaraderie of a community basketball tournament hosted by Highly Productive at The Basketball Social House. As a photographer, there’s something truly special about documenting moments where passion, competition, and community come together—and this event was no exception.",
+        image: basketball,
+        component:BasketballTournament
+    },
+
+        {
+        slug: "how-to-use-branding-to-attract-clients",
+        categoryFolder: "others",
+        title: "How to Use Branding to Attract High-Ticket Clients & Sell Premium Offers",
+        category: "by Natasha Clawson | Vendor",
+        excerpt: "If you're selling high-ticket coaching programs, online courses, or premium consulting services (or you just want to charge more), your branding is doing more than just making you look good. It’s establishing credibility, building trust, and making it easier for your dream clients to say ‘yes’ to working with you.",
+        image: n15,
+        component:HowToUseBranding
+    },
+
+        {
+        slug: "what-to-wear-for-outdoor-photoshoot",
+        categoryFolder: "others",
+        title: "What to wear for your photo session",
+        category: "by KB Photographer",
+        excerpt: "Struggling with what to wear for your maternity, family, or couples photo session in Broomfield, Colorado? KB Photographer's blog offers tips to ease your stress and ensure you look your best. Colorado Photography.",
+        image: outdoorPhoto,
+        component:WhatToWear
+    },
+
+        {
+        slug: "i70-terrain-park-keystone-resort-snowboard-snow-experience-session",
+        categoryFolder: "sports",
+        title: "A Snowboarding Experience at Keystone Resort I70 terrain Park",
+        category: "by KB Photographer",
+        excerpt: "Capturing a snowboarding Snow Experience Photo Session at Keystone Resort’s I70 Terrain Park. The weather that day was a true reflection of Colorado’s mountain spirit - unpredictable, raw, and beautiful. His passion for snowboarding was evident in every trick.",
+        image: i70,
+        component:SnowboardingExperienceI70
+    },
+
+        {
+        slug: "galentines-day-ladies-rail-jam",
+        categoryFolder: "sports",
+        title: "Galentine's Day Ladies Rail Jam | Frisco Adventure Park",
+        category: "B&W series by KB Photographer",
+        excerpt: "The Second Galentine’s Day Ladies Rail Jam at Frisco Adventure Park was nothing short of incredible! The terrain park was buzzing with energy as ladies of all ages and skill levels took over, throwing down tricks, hyping each other up, and making unforgettable memories.",
+        image: galentinesJam,
+        component:GalentinesLadiesRailJam
+    },
+
+        {
+        slug: "ruby-hill-park-winter-denver-2025",
+        categoryFolder: "sports",
+        title: "Ruby Hill Park | Rail | Jumps | Opening Day | 2025 | Denver,Colorado",
+        category: "B&W series by KB Photographer",
+        excerpt: "I just had the most amazing time at Ruby Hill Park in Denver on opening day. It was a sunny but really bright and cold day, perfect for snowboarding, skiing, and snow skating. There were kids, adults, beginners, experienced riders - you name it, there was such a diverse group of people enjoying the slopes. I decided to capture the day in a black and white series on January 26, 2025, and I think it really captured the essence of that bright and beautiful day.",
+        image: rubyHill,
+        component: RubyHillOpening2025
+    },
+
+        {
+        slug: "how-to-use-your-client-gallery",
+        categoryFolder: "others",
+        title: "How to Access and Enjoy Your Photos",
+        category: "Gallery Access",
+        excerpt: "In this guide, I’ll walk you through everything you need to know: how to access your photos, make selections, and download your final images. You’ve had a great photo session capturing those candid moments in the great outdoors! Now it’s time to relive those moments and select your favorites. I use Pic-Time to deliver your online photo gallery, and it’s designed to make this process super easy and intuitive for you.",
+        image: photoCollage,
+        component: HowToAccessPhotos
+    },
+
+        {
+        slug: "valentines-day-galentines-day-denver-2025",
+        categoryFolder: "others",
+        title: "Valentine's Day | Galentine's Day | CB Bernadette + Alexis | RiNo | Denver",
+        category: "by KB Photographer",
+        excerpt: "I recently had the honor of photographing these two beautiful women, Alexis and CB Bernadette for a special Valentine’s and Galentine’s Day photo session. We headed to the vibrant RiNo area of Denver, which, if you haven’t visited, is a hub of creativity, color, and urban charm.",
+        image: valentines,
+        component: ValentinesGalentines2025
+    },
+
+        {
+        slug: "snowboarding-keystone-resort-24-25-snow-experience-park-jumps-tricks",
+        categoryFolder: "sports",
+        title: "A. Snowboarder | Snow Experience",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "The snow was great, the sun was shining, and the temporary park was open for business. A. was absolutely killing it on the jumps and grabs, it was so fun to watch!. We started our day with a warm up lap, then headed over to explore the groomed blue runs, where we were on the lookout for side hits and moguls to play around on. The whole day was filled with stoke, big air, and unforgettable memories.",
+        image: a,
+        component: ASnowExperience
+    },
+
+        {
+        slug: "engagement-photos-dillon-loveland-lake-pass",
+        categoryFolder: "couples",
+        title: "Engagement Session | Loveland Pass Lake near Dillon, Breckenridge, and Keystone",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "I recently had the pleasure of capturing an engagement session at the stunning Loveland Lake, nestled near Loveland Pass between Dillon and Breckenridge. We were blessed with beautiful blue skies and a breathtaking display of yellow and orange foliage that perfectly framed the couple's love story. It was the ideal backdrop for those special save-the-dates and invitations!",
+        image: loveland,
+        component: LovelandPassDillon
+    },
+
+        {
+        slug: "moutainboarding-colorado-sports",
+        categoryFolder: "sports",
+        title: "Mountainboarding | McKay, Ruby Hill, Colorado Springs Bike Park",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "Hey there! I wanted to share our latest hobby—mountainboarding! It’s a lot like snowboarding, but on dirt and grass instead of snow. My husband recently discovered the sport, and he’s been absolutely loving every ride.",
+        image: moutainBoarding,
+        component: MoutainBoardingRubyHill2025
+    },
+
+        {
+        slug: "dog-portraits-lafayette-park",
+        categoryFolder: "portraits",
+        title: "Tessa | Dog Portraits at local park in Lafayette",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "As a lifestyle photographer who loves the outdoors and exploring new locations, it was so wonderful to combine my passion for wilderness with capturing precious memories for E and Tessa. There's something so magical about photographing elderly dogs - they have a certain wisdom and grace that shines through in every shot.",
+        image: tessa,
+        component: Tessa
+    },
+
+        {
+        slug: "engagement-proposal-surprise-denver-colorado",
+        categoryFolder: "couples",
+        title: "Couples | Surprise | Proposal | Engagement | Denver, Colorado",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "Imagine this: You and your partner have just moved into your dream home, a cozy little house with a rooftop that offers stunning views of the surrounding area. You're settling in nicely, unpacking boxes and making it feel like home. Little do you know, your partner has a surprise up their sleeve that will change your lives forever.",
+        image: jk,
+        component: JKSurpriseEngagement
+    },
+
+        {
+        slug: "klein-family-portraits-bear-lake-moraine-park",
+        categoryFolder: "family",
+        title: "Family Portraits at Bear Lake | Moraine Park | Forest Canyon Overlook | Rocky Mountain National Park",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "Recently, I had the privilege of photographing a lovely couple who traveled all the way from the East Coast to Colorado for their engagement session. They chose the stunning Rocky Mountain National Park",
+        image: kleinFamily,
+        component: KleinFamily
+    },
+
+        {
+        slug: "engagement-proposal-RMNP-bear-lake",
+        categoryFolder: "couples",
+        title: "R&L Engagement @ Bear Lake, Rocky Mountain National Park",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "Recently, I had the privilege of photographing a lovely couple who traveled all the way from the East Coast to Colorado for their engagement session. They chose the stunning Rocky Mountain National Park",
+        image: RL,
+        component: RLEngagement
+    },
+
+        {
+        slug: "maternity-photography-session-boulder-lost-gulch",
+        categoryFolder: "maternity",
+        title: "Maternity Session at Lost Gulch Overlook in Boulder Colorado with Brazilian Photographer",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "Visiting a breathtaking location for the first time. The setting? The awe-inspiring Lost Gulch Overlook. The day was dark and stormy, ominous clouds gathering in the sky, but the excitement in the air was palpable. The anticipation of capturing this beautiful family in such a stunning backdrop was a thrill.",
+        image: mirlene,
+        component: MirleneMaternitySession
+    },
+
+        {
+        slug: "landscape-loveland-pass-RMNP",
+        categoryFolder: "couples",
+        title: "Elopement and Wedding Locations in Colorado Mountains",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: `Have you ever dreamed of saying "I do" with the majestic Rocky Mountains as your witness? Picture yourself and your beloved standing on a cliff overlooking a breathtaking valley, the sun setting behind the peaks turning the sky into a canvas of vibrant colors. This is the magic of eloping in the Colorado mountains near Denver.`,
+        image: elopementLocations,
+        component: ElopementLocations
+    },
 
 
+        {
+        slug: "family-portraits-photography-lakewood-colorado-belmar-park",
+        categoryFolder: "family",
+        title: "Family Photos in Lakewood, Colorado",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "I recently had the most heartwarming family photography session at Belmar Park in Lakewood, Colorado, and I can't wait to share how special it was.",
+        image: hfamily,
+        component: hFamily
+    },
 
+        {
+        slug: "maternity-photography-session-genesee-park-golden-hour",
+        categoryFolder: "maternity",
+        title: "Maternity Session at Genesee Park near Golden, Colorado",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "As an outdoorsy and adventurous lifestyle photographer, I was thrilled to capture Karly's glowing beauty against the backdrop of the stunning natural scenery.",
+        image: maternity2,
+        component: MaternitySessionGeneseePark
+    },
 
+        {
+        slug: "outdoor-portraits-photography",
+        categoryFolder: "portraits",
+        title: "Capturing Stunning Outdoor Portraits in Colorado",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "Colorado offers some of the most stunning backdrops for outdoor portraits, whether you're drawn to the rugged beauty of the mountains or the vibrant energy of the city centers. Here's a guide to help you prepare for your portrait session and make the most of this breathtaking state.",
+        image: outdoorPortraits,
+        component: CapturingOutdoorPortraits
+    },
 
+        {
+        slug: "photography-permits-Hildebrand-Ranch-Park-Colorado",
+        categoryFolder: "couples",
+        title: "Navigating Photography Permits for Your Photo Session at Hildebrand Ranch Park",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "Planning a photo session in the stunning wilderness of Hildebrand Ranch Park in Jefferson County, Colorado? This outdoorsy, adventurous location is perfect for capturing your love story amidst breathtaking backdrops. Here’s everything you need to know about photography permits to make your session seamless and memorable.",
+        image: navigatingPermits,
+        component: NavigatingPermits
+    },
 
+        {
+        slug: "tall-photographer-why-height-important",
+        categoryFolder: "others",
+        title: "Why Your Photographer's Height Might Matter",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: `When planning your photo sessions, you probably think about the location, outfits, and poses. But have you ever considered your photographer's height? For tall couples, like those where one partner is 6'3" and the other is 6'5", the height of your photographer can actually make a big difference.`,
+        image: kbphotographer,
+        component: PhotographerHeightMatters
+    },
 
+        {
+        slug: "portraits-dillon-breckenridge-keystone-ski-snowboard-trip-colorado",
+        categoryFolder: "sports",
+        title: "Capturing Family Photos and Portraits | Skiing and Snowboarding near Dillon, Keystone, and Breckenridge in Colorado",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "If you’re planning a trip to the stunning Dillon, Colorado, get ready for some unforgettable moments—and, of course, some amazing photos to go with them. As a lifestyle photographer who loves the great outdoors, I’m here to help you capture the magic of your vacation.",
+        image: dillon,
+        component: Dillon
+    },
 
+        {
+        slug: "preparing-for-photography-session-get-ready-portrait",
+        categoryFolder: "portraits",
+        title: "Preparing for your session",
+        category: "with KB PHOTOGRAPHER",
+        excerpt: "Your portrait session is a celebration of you, your journey, and the beauty of the present moment. Here’s how you can make the most of your upcoming session:",
+        image: sarahPortrait,
+        component: PreparingPortraitSession
+    },
 
+        {
+        slug: "maternity-lakewood-park-colorado-session-kbphotograph",
+        categoryFolder: "maternity",
+        title: "Maternity Session at Belmar Park",
+        category: "in Lakewood, Colorado",
+        excerpt: "I had the absolute pleasure of shooting maternity photos with this amazing new mom recently. We decided to head over to Belmar Park in Lakewood, Colorado for the backdrop, and let me tell you, the nature vibe was on point!",
+        image: karly,
+        component: KarlyMaternitySession
+    },
 
+        {
+        slug: "landscape-loveland-pass-RMNP-rocky-mountain-National-park-elopment-location-wedding-couples",
+        categoryFolder: "couples",
+        title: "Elopement and Wedding Locations",
+        category: "in Colorado Mountains near Denver",
+        excerpt: `Discover breathtaking elopement and wedding locations in the Colorado mountains near Denver. Explore stunning landscapes, from RMNP to Loveland Pass, and get personalized guides tailored for your special day. Perfect for couples looking to say "I do" amidst nature's beauty.`,
+        image: elopementLocations,
+        component: Locations
+    },
 
+        {
+        slug: "wedding-photography",
+        categoryFolder: "couples",
+        title: "Micro Wedding in Washington",
+        category: "by Colorado Photographer",
+        excerpt: "In this blog post, I'm diving into why I love micro weddings. From the cozy vibes and heartfelt moments to the chance to focus on your unique story, these intimate celebrations truly capture what matters most. Come along as I share why I'm all about creating unforgettable memories, one small and beautiful wedding at a time.",
+        image: microWedding,
+        component: MicroWeddingWa
+    },
 
+        {
+        slug: "headshots-downtown-denver",
+        categoryFolder: "personal-branding",
+        title: "Headshots in Downtown Denver",
+        category: "Branding | Art Museum Downtown Denver",
+        excerpt: "I had the coolest photo shoot the other day with this stunning model. We met in downtown Denver. Seriously, she was beautiful inside and out, and working with her was an absolute dream.",
+        image: headshotsDenver,
+        component: HeadshotsInDenver
+    },
+
+        {
+        slug: "maternity-lakewood-park-co",
+        categoryFolder: "maternity",
+        title: "Maternity Session in Lakewood Colorado",
+        category: "Lakewood, CO",
+        excerpt: "Join us for a laid-back maternity photo session in Lakewood, Colorado. We had a great time capturing natural, joyful moments amidst the area's beautiful scenery. From peaceful parks to gentle sunlight filtering through the trees, this session was all about celebrating the journey of motherhood in a relaxed and beautiful setting. Check out the blog to see how Lakewood's charm adds a special touch to these precious memories.",
+        image: maternitySessionLakewood,
+        component: MaternityLakewoodPark
+    },
+
+        {
+        slug: "landscapes",
+        categoryFolder: "others",
+        title: "Landscapes",
+        category: "Art Work Available for Sale",
+        excerpt: "In this vast expanse of wilderness, I found a different kind of beauty. The towering peaks of the Rocky Mountains stood proudly against the sky, their jagged edges painting an awe-inspiring silhouette.",
+        image: landscape,
+        component: Landscape
+    },
+
+        {
+        slug: "headshots-khi",
+        categoryFolder: "personal-branding",
+        title: "Khi | Headshots",
+        category: "Branding Photography - Wheat Ridge in Colorado",
+        excerpt: "Creating headshots for your personal brand is so important, especially if you're looking to make a connection with your community. It's a great way to show off your personality and let people get to know the real you.",
+        image: khi,
+        component: Khi
+    },
+
+        {
+        slug: "donna-snowboarding-session",
+        categoryFolder: "sports",
+        title: "Donna | Snowboarder",
+        category: "Lifestyle Photography - Keystone Resort in Colorado",
+        excerpt: "Donna wanted to capture some awesome shots of her shredding in the mountains to share with her friends and document her new hobby. It was such a pleasure to spend the day with her on the slopes, capturing her infectious energy and enthusiasm for snowboarding.",
+        image: donna ,
+        component: Donna
+    },
+
+        {
+        slug: "flavia-snowboarding-session",
+        categoryFolder: "sports",
+        title: "Flávia | Snowboarder",
+        category: "Lifestyle Photography - Breckenridge Resort in Colorado",
+        excerpt: "Flávia reached out to me to capture some photos of her shredding the slopes at Breckenridge resort in Colorado, where she has been spending the winter season. It's amazing to see her adventurous spirit and shiny personality shine through in every shot.",
+        image: flavia ,
+        component: Flavia
+    },
+
+        {
+        slug: "keystone-resort-documentary-photograph",
+        categoryFolder: "sports",
+        title: "Keystone Resort | Colorado",
+        category: "Documentary Photography | 2023-2024 Winter Season",
+        excerpt: "Winter in Colorado is truly something magical. The way the snow glistens as it blankets the mountains, the crisp chill in the air, and the adrenaline-fueled excitement of hitting the slopes - it's a season that holds so much beauty and thrill.",
+        image: keystone2023 ,
+        component: Keystone2023
+    },
+
+        {
+        slug: "pets-photograph",
+        categoryFolder: "others",
+        title: "Pet Photography",
+        category: "Immortalizing precious moments",
+        excerpt: "Imagine a world where every moment is a precious memory waiting to be captured. Where the innocence of a dog's playful antics is frozen in time, forever etched in the corridors of our hearts.",
+        image: walker ,
+        component: Pets
+    },
+
+        {
+        slug: "nettie-fitness-photograph",
+        categoryFolder: "others",
+        title: "Nettie | Fitness Session",
+        category: "Client Gallery",
+        excerpt: "I recently had the opportunity to work with someone incredible named Nettie. Nettie is not only a personal trainer but also a bodybuilder competitor. She approached me for a photoshoot, and I must say, it was an amazing experience.",
+        image: nettie ,
+        component: Nettie
+    },
+
+        {
+        slug: "sam-fitness-photograph",
+        categoryFolder: "sports",
+        title: "Sam | Fitness Session",
+        category: "Client Gallery",
+        excerpt: "Sam is this cool model who reached out to me asking if I could capture his fitness journey, and of course, I couldn't resist! We decided to hit up this local gym called Train Station Fitness Center and let me tell you, it was like no other gym I'd ever seen.",
+        image: sam ,
+        component: Sam
+    },
+
+        {
+        slug: "brad-fitness-photograph",
+        categoryFolder: "sports",
+        title: "Brad | Fitness Session",
+        category: "Client Gallery",
+        excerpt: "Have you ever wondered what it's like to spend a day at the gym with a bodybuilder? Well, let me take you on an exciting journey into the world of health and fitness.",
+        image: brad ,
+        component: Brad
+    },
 
     
     
