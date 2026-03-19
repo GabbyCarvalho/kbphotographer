@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function RubyHillOpening2025() {
     return(
@@ -17,6 +18,18 @@ export default function RubyHillOpening2025() {
 
         Have an idea for the blog or want to collaborate? Whether it’s a guest post, a mention, or a creative partnership, I’d love to connect with you! Let’s chat!
          </script><template data-pt-type='blog' data-pt-slideshowid='67986318c0a9ba18245ecf0c' ></template><script src='https://kbphotographer.pic-time.com/-rubyhillopeningdaydenver2025/slideswebcomponentembed.js/67986318c0a9ba18245ecf0c?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='67986318c0a9ba18245ecf0c'></script>`} />
+
+      <section className="formSection">
+            <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

@@ -2,41 +2,59 @@ import { Link, Outlet } from "react-router-dom";
 import logo from "../../assets/logos/logo.png";
 import br from "../../assets/logos/br.jpg";
 import us from "../../assets/logos/us.png";
+import { useState } from "react";
+import ScrollToTop from "../../components/ScrollToTop";
 
 
 export default function RootLayout () {
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
     return (
-        <>
+      <>
+     <ScrollToTop />   
     <header className="header">
         <div className="topBar">
             <nav className="navbar">
               <Link to="/" className="logo">
               <img src={logo} alt="Karina Bittencourt Photographer" />
               </Link>
-            <div className="navLinks">
-                <Link to="/about">ABOUT</Link>
-                <Link to="/galleries">GALLERIES</Link>
-                <Link to="/contact">CONTACT</Link>
-                <Link to="/faq">FAQ</Link>
-                <Link to="/engagements">ENGAGEMENTS</Link>
-                <Link to="/ski">SKI</Link>
-                <Link to="/headshots">HEADSHOTS</Link>
-                <Link to="/blog">BLOG</Link>
-                <Link to="/store">STORE</Link>
+            <div className={`navLinks ${menuOpen ? "open" : ""}`}>
+                <Link to="/about" onClick={() => setMenuOpen(false)}>ABOUT</Link>
+                <Link to="/galleries" onClick={() => setMenuOpen(false)}>GALLERIES</Link>
+                <Link to="/contact" onClick={() => setMenuOpen(false)}>CONTACT</Link>
+                <Link to="/faq" onClick={()=> setMenuOpen(false)}>FAQ</Link>
+                <Link to="/engagements" onClick={()=> setMenuOpen(false)}>ENGAGEMENTS</Link>
+                <Link to="/ski" onClick={()=> setMenuOpen(false)}>SKI</Link>
+                <Link to="/headshots" onClick={()=> setMenuOpen(false)}>HEADSHOTS</Link>
+                <Link to="/blog" onClick={()=> setMenuOpen(false)}>BLOG</Link>
+                <Link to="/store" onClick={()=> setMenuOpen(false)}>STORE</Link>
             </div>
 
             <div className="flags">
                 <img src={br} alt="br" />
                 <img src={us}alt="us" />
             </div>
-            </nav>
+
+            {/* Hamburguer menu p/ mobible*/}
+            <div
+            className={`hamburger ${menuOpen ? "active" : ""}`}
+            onClick={()=> setMenuOpen(!menuOpen)}
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+
+            </div>
+          </nav>
         </div>
 </header>
 
-        <main className="mainContent">
-          <Outlet />
-        </main>
-       <footer className="footer">
+  <main className="mainContent">
+      <Outlet />
+   </main>
+
+<footer className="footer">
   <div className="footerContainer">
     <div className="footerNav">
 

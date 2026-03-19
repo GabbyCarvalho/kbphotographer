@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function PhotoLamps () {
     return (
@@ -33,6 +34,20 @@ export default function PhotoLamps () {
         If you’re ready to bring your memories to life, I’d love to help. Book a session with me to capture your special moments, and pair them with a custom lamp from DPDesignsStuff to keep those memories glowing every day.
 
         Reach out today to schedule your photography session and order your personalized lamp, let’s make your moments unforgettable.</script><template data-pt-type='blog' data-pt-slideshowid='688d3cbeb67b46a344a75770' ></template><script src='https://gallery.kbphotographer.com/-dpdesignsstuff/slideswebcomponentembed.js/688d3cbeb67b46a344a75770?features=lightbox,pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='688d3cbeb67b46a344a75770'></script>`} />
+
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function MeeshaHairstylist() {
     return(
@@ -31,6 +32,19 @@ If you’re in Denver looking for a fresh cut and a stylist who truly cares, kee
         type="text/javascript"
         data-pt-scriptslideshowid="67e352652745931d38a520e3"
       ></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

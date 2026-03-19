@@ -72,9 +72,6 @@
 /* ============== ACCORDION SECTION ===============*/
 
 
-
-
-
 /* Container geral */
 .accordion-section {
     width: 100%;
@@ -127,7 +124,13 @@
     margin: 0 0 20px;
 }
 
+/* ============== MOBILE ===============*/
+@media (max-width: 768px) {
 
+  .accordion-section {
+    padding: 0 1.5rem;
+  }
 
+}
 
 

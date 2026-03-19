@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function KeystonePark () {
     return(
@@ -21,6 +22,18 @@ export default function KeystonePark () {
         Keystone Resort | Terrain Park | Cloudy spring day | Features: jumps, grabs, rails & lift portraits
         
         📷 Want photos of your ride style? Let’s book a session and turn your park laps into something you can look back on all year.</script><template data-pt-type='blog' data-pt-slideshowid='6832b2cdd5a6961dc89b1e72' ></template><script src='https://kbphotographer.pic-time.com/-lsnowexperiencesessionkeystoneresort/slideswebcomponentembed.js/6832b2cdd5a6961dc89b1e72?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='6832b2cdd5a6961dc89b1e72'></script>`} />
+
+      <section className="formSection">
+            <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

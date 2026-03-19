@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function WhatToWear() {
     return(
@@ -57,6 +58,20 @@ Ready for Your Session?
 
 If you’re excited to book your photo session and capture your unique style against Colorado’s stunning backdrops, fill out the inquiry form below and let's get planning
 </script><template data-pt-type='blog' data-pt-slideshowid='6695b6ef83c94f1bbcc5f881' ></template><script src='https://kbphotographer.pic-time.com/-blogs/slideswebcomponentembed.js/6695b6ef83c94f1bbcc5f881?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='6695b6ef83c94f1bbcc5f881'></script>`} />
+
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function ElopingSnowOutfit () {
     return (
@@ -65,6 +66,19 @@ export default function ElopingSnowOutfit () {
         Ready to plan your Colorado ski elopement or engagement session?
 
         Whether you’re skiing in your wedding dress or proposing after a snowboarding day, I’ll help you plan a day that feels just like you.`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
                 </>
     )
 }

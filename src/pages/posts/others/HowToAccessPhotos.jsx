@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function HowToAccessPhotos() {
     return(
@@ -74,6 +75,19 @@ export default function HowToAccessPhotos() {
         Yes! Visit the “Shop” tab in your Pic-Time gallery.
 
         If you have questions or need help, feel free to reach out. I’m here to help you enjoy your outdoor adventure memories! </script><template data-pt-type='blog' data-pt-slideshowid='677249249bbab50c4cf3dceb' ></template><script src='https://kbphotographer.pic-time.com/-blogs/slideswebcomponentembed.js/677249249bbab50c4cf3dceb?features=lightbox&filtertags=' type='text/javascript' data-pt-scriptslideshowid='677249249bbab50c4cf3dceb'></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

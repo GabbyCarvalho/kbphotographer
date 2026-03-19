@@ -213,3 +213,81 @@ margin-bottom: 1rem;
       background: var(--verde-2);
   color: white;
 }
+
+/* ================= MOBILE HOME ================= */
+@media (max-width: 768px) {
+
+  /* ---------- CAROUSEL ---------- */
+  .home-carousel img {
+    margin-top: 0;
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  /* ---------- ABOUT ---------- */
+  .moreAboutMeArea {
+    grid-template-columns: 1fr; 
+    gap: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .aboutText {
+    max-width: 100%;
+  }
+
+  .aboutText h2 {
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+  }
+
+  .aboutText p {
+    font-size: 0.95rem;
+  }
+
+  .photographer {
+    justify-content: center;
+  }
+
+  .photographer img {
+    width: 80%;
+  }
+
+  /* ---------- CARDS ---------- */
+  .cardsArea {
+    grid-template-columns: 1fr; 
+    gap: 2rem;
+  }
+
+  .card {
+    padding: 1.5rem 1rem;
+  }
+
+  .card img {
+    max-width: 100%;
+  }
+
+  .cardTitle {
+    font-size: 1.5rem;
+  }
+
+  /* ---------- TITLES ---------- */
+  .tittle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* ---------- REVIEWS ---------- */
+  .reviewsArea {
+    padding: 0 1rem;
+  }
+
+  .reviewcarousel img {
+    max-width: 100%;
+  }
+
+  .seeReviewsBtn {
+    font-size: 0.9rem;
+  }
+
+}

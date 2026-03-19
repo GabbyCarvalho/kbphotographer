@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function MoutainBoardingRubyHill2025() {
     return(
@@ -36,6 +37,19 @@ Ready to book? Fill out the form below
         type="text/javascript"
         data-pt-scriptslideshowid="67184416ec2e7b1fa8b285f0"
       ></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

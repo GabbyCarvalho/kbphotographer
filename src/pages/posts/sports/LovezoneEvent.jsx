@@ -1,8 +1,10 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 
 export default function LovezoneEvent() {
     return(
+    <>
         <PicTimePost 
         embedCode="<script> const searchread_694b09533900f23fa111c275 = `Proteus Snowboards Pre-Season Gathering at the Lovezone Colorado Sports photography by KB Photographer 
         November 23, 2025 The Lovezone, a DIY snowboard hike park built in the trees at Loveland Pass, Colorado, became a meeting point for riders, builders, friends, and brands 
@@ -20,6 +22,20 @@ export default function LovezoneEvent() {
          in photos from this event, want access to the gallery, or are planning something of your own and need it documented, get in touch with me directly or reach out to @guccidragonking and we’ll make it happen."
 
         />
+
+        <section className="formSection">
+                          
+            <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
+    </>
     )
 
 }

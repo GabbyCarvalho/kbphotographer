@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function EldoraJam() {
     return(
@@ -24,6 +25,19 @@ export default function EldoraJam() {
         📷 Featuring: Girl’s Jam | Skiers & Snowboarders | Pros & Locals
         
         💬 Want high-quality coverage of your next event? Let’s connect.</script><template data-pt-type='blog' data-pt-slideshowid='6832bd6fd5a6961dc89b35dc' ></template><script src='https://kbphotographer.pic-time.com/-railerparkgirlsrailjameldoramountainwoodwardlevel1/slideswebcomponentembed.js/6832bd6fd5a6961dc89b35dc?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='6832bd6fd5a6961dc89b35dc'></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

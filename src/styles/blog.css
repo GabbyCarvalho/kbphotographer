@@ -154,3 +154,81 @@
 .categories button.active::after {
   width: 100%;
 }
+
+
+ /* ===================== MOBILE ======================== */
+@media (max-width: 768px) {
+
+  .blog-wrapper {
+    padding-top: 70px;
+  }
+
+  /* GRID vira 1 coluna */
+  .blog-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  /* CARD */
+  .blog-card {
+    padding: 10px;
+    border: 1px solid #6f8770;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+
+  }
+  
+
+  /* IMAGEM */
+  .imageBlog-wrapper {
+    padding: 0;
+    aspect-ratio: auto;
+  }
+
+  .imageBlog-wrapper img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  /* TEXTO */
+  .card-content {
+    margin-top: 10px;
+    padding: 10px 0 0 0;
+  }
+
+  .blog-card h2 {
+    font-size: 20px;
+  }
+
+  .category {
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-bottom: 6px;
+  }
+
+  .excerpt {
+    font-size: 14px;
+    margin-bottom: 10px;
+    -webkit-line-clamp: 3;
+  }
+
+
+  .read-more {
+    font-size: 13px;
+  }
+
+  /* CATEGORIAS → scroll horizontal */
+ .categories {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0;
+  }
+
+  .categories button {
+    font-size: 11px;
+  }
+}

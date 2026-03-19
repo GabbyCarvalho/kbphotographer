@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function Landscape() {
     return(
@@ -32,6 +33,19 @@ export default function Landscape() {
 
         So, whether it's the gentle lapping of waves against a distant shore or the sight of a golden eagle soaring through the open sky, let us all embrace the call of the wild. Let us discover the miracles that nature has to offer and connect with the world around us. And in doing so, let us deepen our appreciation for the beauty that surrounds us, in all its dangerous and stunning glory.
         View Full Gallery </script><template data-pt-type='blog' data-pt-slideshowid='65c5bd14d18b8817bcccdecb' ></template><script src='https://kbphotographer.pic-time.com/-landscapenaturephotography/slideswebcomponentembed.js/65c5bd14d18b8817bcccdecb?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='65c5bd14d18b8817bcccdecb'></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

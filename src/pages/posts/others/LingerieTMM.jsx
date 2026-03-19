@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function Lingerie() {
     return (
@@ -16,6 +17,19 @@ export default function Lingerie() {
             Beyond the United States, the brand also operates in Brazil and Europe, carrying its message of inclusivity and self-expression across borders.`;</script><template data-pt-type='blog' data-pt-slideshowid='69699e853d33a86dbb9bcf07' ></template><script src='https://gallery.kbphotographer.com/-blogs/slideswebcomponentembed.js/69699e853d33a86dbb9bcf07?features=lightbox,pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='69699e853d33a86dbb9bcf07'></script>"
 
             />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

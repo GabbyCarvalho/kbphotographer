@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function WinterParkNov () {
     
@@ -41,6 +42,18 @@ export default function WinterParkNov () {
             Ready to book?
             Send me a message, tell me your dates, your mountain, and what you’re dreaming of.
             We’ll make it happen.`} />
+
+      <section className="formSection">
+            <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
 
     </>
         )

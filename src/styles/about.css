@@ -270,3 +270,90 @@
     padding: 2rem 2rem;
     
 }
+
+
+/* ============== MOBILE ===============*/
+
+@media (max-width: 768px) {
+
+  /* 🔥 TRANSFORMA EM 1 COLUNA */
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    
+  }
+
+  /* 🔥 EMPILHA NA ORDEM CORRETA */
+  .grid-container {
+    grid-template-areas:
+      "tittle"
+      "subtittle"
+
+      "img1"
+      "text1"
+
+      "img2"
+      "text2"
+
+      "full1"
+
+      "img3"
+      "text3"
+
+      "img4"
+      "text4"
+
+      "img5"
+      "text5"
+
+      "img6"
+      "text6"
+
+      "full2";
+  }
+
+  /* 🚨 ISSO É O QUE ESTAVA QUEBRANDO TUDO */
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6 {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  /* GARANTE QUE IMAGEM NÃO ESTOURE */
+  .grid-container img {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  /* AJUSTE DE PADDING PRA NÃO COLAR NAS BORDAS */
+  .aboutPage {
+    padding: 2rem 1rem;
+  }
+
+  /* REMOVE LIMITES QUE CENTRALIZAM MAL */
+  .full1,
+  .full2 {
+    max-width: 100%;
+    margin: 2rem auto;
+  }
+
+  /* CARD MAIS RESPONSIVO */
+  .cardBackground {
+    padding: 1.5rem 1rem;
+  }
+
+}
+
+  .grid-container > div {
+    width: 100%;
+  }

@@ -28,3 +28,55 @@
 .policy-wrapper .textCenter {
     text-align: center;
 }
+ /*=========================== MOBILE ==================================*/
+
+@media (max-width: 768px) {
+
+  .policy {
+    margin: 1.5rem 1rem;
+  }
+
+  .policy-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    letter-spacing: 0.05em; /* menos espaçado = melhor leitura mobile */
+  }
+
+  /* TÍTULO PRINCIPAL */
+  .policy-wrapper .tittle {
+    text-align: center;
+    font-size: 24px;
+    padding: 0.5rem 0;
+  }
+
+  /* DATA */
+  .policy-wrapper .textCenter {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  /* SEÇÕES (1,2,3...) */
+  .policy-wrapper h2 {
+    font-size: 16px;
+    padding: 0.8rem 0 0.3rem 0;
+  }
+
+  /* PARÁGRAFOS */
+  .policy-wrapper p {
+    padding: 0.4rem 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* TEXTOS LONGOS */
+  .policy-wrapper .textP {
+    line-height: 1.7;
+  }
+
+  /* LISTA */
+  .listPolicy {
+    margin-top: 10px;
+  }
+
+}

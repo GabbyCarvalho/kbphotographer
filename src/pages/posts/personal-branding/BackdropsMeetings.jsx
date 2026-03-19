@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function BackdropsMeetings() {
     return(
@@ -88,6 +89,19 @@ export default function BackdropsMeetings() {
         Each background is photographed and designed by me to help you show up confidently and professionally on every call.
 
         Let’s make your virtual space feel as inspiring as the mountains around us.`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
                 </>
     )
 }

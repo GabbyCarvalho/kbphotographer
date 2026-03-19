@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function SpringPortraitAtLilyLake() {
     return(
@@ -32,6 +33,19 @@ export default function SpringPortraitAtLilyLake() {
         type="text/javascript"
         data-pt-scriptslideshowid="6832a8754fb06d188c0a5e5d"
       ></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }

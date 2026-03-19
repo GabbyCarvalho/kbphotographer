@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed"; 
 
 export default function MirleneMaternitySession() {
     return(
@@ -20,6 +21,19 @@ export default function MirleneMaternitySession() {
         So here's to more adventures, more exploration, and more unforgettable memories. Here's to capturing those moments that take our breath away and leave a lasting imprint on our hearts. Moments like these, moments with families like this one, are what remind me of the wild, untamed beauty of the world around us. And I am grateful every day to be able to document these moments and share them with the world.
         Ready to capture your own family’s love and laughter? Fill out the inquiry form below and let’s create moments that turn into memories! </script><template data-pt-type='blog' data-pt-slideshowid='66f23081dd828b0c9c24442d' ></template><script src='https://gallery.kbphotographer.com/-mirlenesmaternitysession/slideswebcomponentembed.js/66f23081dd828b0c9c24442d?features=lightbox,pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='66f23081dd828b0c9c24442d'></script>`} />
         
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>        
         </>
     )
 }

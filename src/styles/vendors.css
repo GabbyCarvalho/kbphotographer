@@ -77,3 +77,81 @@ color: #315034;
   line-height: 1.3;
   letter-spacing: 2px;
 }
+
+/*========================= MOBILE ===================================*/
+
+@media (max-width: 768px) {
+
+  .vendors {
+    margin: 2rem 1rem;
+  }
+
+  .vendors .tittle {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .vendorsList {
+    padding: 0 15px;
+  }
+
+  /* GRID → 1 coluna */
+  .list {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  /* CARD */
+  .list li {
+    padding: 15px;
+    border: 1px solid #6f8770;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  
+
+  }
+
+  /* IMAGEM */
+  .vendorsPhoto {
+    width: 100%;
+    height: auto;
+  }
+
+  /* TEXTOS */
+  .vendorsName {
+    font-size: 18px;
+    padding: 0.5rem 0;
+  }
+
+  .vendorsService {
+    font-size: 14px;
+    padding: 0 0 0.5rem 0;
+  }
+
+  .vendorsDescription {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.04em; /* melhora leitura no mobile */
+    padding: 0.5rem 0;
+  }
+
+  /* LINK */
+  .list li a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  /* CTA */
+  .vendorCTA {
+    min-height: 200px;
+    padding: 20px;
+  }
+
+  .vendorCTA h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+}

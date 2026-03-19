@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function Nettie() {
     return(
@@ -18,6 +19,18 @@ export default function Nettie() {
 
         So, whether you're searching for a personal trainer or looking for fitness inspiration, Nettie is your go-to person. Her determination, expertise, and passion for fitness will undoubtedly help you achieve your goals. And if you ever need someone to capture your journey through authentic and posed photographs, I'm here to help you just like I did for Nettie.
         View Full Gallery </script><template data-pt-type='blog' data-pt-slideshowid='65c5ae73925ad90a74e35939' ></template><script src='https://kbphotographer.pic-time.com/-nettiefitnesssession/slideswebcomponentembed.js/65c5ae73925ad90a74e35939?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='65c5ae73925ad90a74e35939'></script>`} />
+
+      <section className="formSection">
+            <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
                 
                 
         </>

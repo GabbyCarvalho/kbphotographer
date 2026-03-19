@@ -1,4 +1,5 @@
 import PicTimePost from "../../../components/PicTimePost";
+import HoneyBookEmbed from "../../../components/HoneyBookEmbed";
 
 export default function Keystone2023 () {
     return(
@@ -24,6 +25,19 @@ export default function Keystone2023 () {
         So, if you happen to find yourself at Keystone Resort, keep an eye out for me. I'll be the one with the camera, eagerly freezing these captivating moments in time. And perhaps, through my lens, you'll catch a glimpse of the extraordinary beauty and determination that exists within each and every snow sports enthusiast.
 
         View Full Gallery </script><template data-pt-type='blog' data-pt-slideshowid='65c5b2bac8392110706637c0' ></template><script src='https://kbphotographer.pic-time.com/-keystonedocumentaryphotography/slideswebcomponentembed.js/65c5b2bac8392110706637c0?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='65c5b2bac8392110706637c0'></script>`} />
+
+      <section className="formSection">
+                          
+        <h2 className="titlePlanning"> Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section>
         </>
     )
 }
