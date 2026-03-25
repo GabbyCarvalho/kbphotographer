@@ -4,6 +4,7 @@ import vendor2 from"../../assets/vendors/vendor2.webp"
 import vendor3 from"../../assets/vendors/vendor3.png"
 import vendor4 from"../../assets/vendors/vendor4.jpg"
 import vendor5 from"../../assets/vendors/vendor5.webp"
+import vendor6 from "../../assets/vendors/vendor6.jpg"
 
 import { Link } from "react-router-dom";
 
@@ -95,6 +96,25 @@ export default function VendorsLits() {
                     </p>
                     
                 </li>
+
+                <li>
+                    <img src={vendor6} className="vendorsPhoto" alt="" />
+                    <h3 className="vendorsName">Gabby</h3>
+                    <p className="vendorsService">Web Developer</p>
+                    <p className="vendorsDescription">
+
+                        Hey! I’m Gabby, a Web Developer specializing in modern, high-converting websites for entrepreneurs, creatives, and growing businesses. I bring your ideas to life through clean design, responsive development, and seamless user experiences.
+
+                        From portfolio sites to full web platforms, my goal is to create an online presence that attracts your ideal clients and elevates your brand with confidence.
+
+                        Just like this website—you’re seeing my work in action.
+                
+                    </p>
+                    <a href="mailto:gabriela_carvalho06l@hotmail.com?subject=Website Inquiry">Let's work together</a>
+                    
+                </li>
+
+
                 <li>
                     <div className="vendorCTA">
                         <h2>Would You Like to Join Our Vendor List?</h2>

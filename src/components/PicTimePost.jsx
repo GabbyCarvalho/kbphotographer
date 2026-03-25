@@ -1,29 +1,55 @@
 import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 
 export default function PicTimePost({ embedCode }) {
-  const containerRef = useRef(null);
+  const ref = useRef(null);
+  const location = useLocation();
 
   useEffect(() => {
-    if (!containerRef.current) return;
+    if (!ref.current) return;
 
-    containerRef.current.innerHTML = embedCode;
+    // 🔥 força reset TOTAL do container
+    ref.current.innerHTML = "";
+    ref.current.replaceChildren();
 
-    // execução dos scripts
-    const scripts = containerRef.current.querySelectorAll("script");
+    const wrapper = document.createElement("div");
+    wrapper.innerHTML = embedCode;
 
-    scripts.forEach((oldScript) => {
+    const scripts = wrapper.querySelectorAll("script");
+
+    scripts.forEach((script) => {
+      const src = script.getAttribute("src");
+
+      // remove script inline (bugado)
+      if (!src) {
+        script.remove();
+        return;
+      }
+
+      // 🔥 remove script antigo com MESMO src (ESSENCIAL)
+      const existing = document.querySelector(`script[src="${src}"]`);
+      if (existing) {
+        existing.remove();
+      }
+
+      // recria script (força reload)
       const newScript = document.createElement("script");
+      newScript.src = src;
+      newScript.async = true;
 
-      // copia atributos
-      Array.from(oldScript.attributes).forEach(attr => {
-        newScript.setAttribute(attr.name, attr.value);
-      });
+      document.body.appendChild(newScript);
 
-      newScript.text = oldScript.text;
-      oldScript.parentNode.replaceChild(newScript, oldScript);
+      script.remove();
     });
 
-  }, [embedCode]);
+    ref.current.appendChild(wrapper);
 
-  return <div ref={containerRef}></div>;
+    // 🔥 força reprocessamento visual
+    setTimeout(() => {
+      window.dispatchEvent(new Event("resize"));
+    }, 500);
+
+  }, [embedCode, location.pathname]);
+
+  return <div ref={ref}></div>;
 }

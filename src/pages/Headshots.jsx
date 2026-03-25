@@ -31,6 +31,7 @@ export default function Headshots () {
         </section>
 
         <section className="intro">
+           
             <div className="introDiv">
                 <h1 className="tittle">Signature Headshots for Professionals & Entrepreneurs</h1>
                 <p>Broomfield, Colorado | by KB PHOTOGRAPHER</p>
@@ -61,6 +62,7 @@ export default function Headshots () {
 
 
         <section className="middleCardsSection">
+            <ScrollItem>
             <div className="middleCards">
                 <div className="cardLeft">
                     <h2 className="tittle">Perfect For</h2>
@@ -75,7 +77,7 @@ export default function Headshots () {
                     <img src={card3} alt="" className="bottom" />
                 </div>
            </div>
-
+            </ScrollItem>
         </section>
 
         <section className="packageSection">
@@ -104,6 +106,7 @@ export default function Headshots () {
         </section>
 
         <section className="finalSection">
+            <ScrollItem>
             <div className="finalSectionWrapper">
                 <div className="finalSectionText">
                     <h2 className="tittle">Why It Matters</h2>
@@ -119,6 +122,7 @@ export default function Headshots () {
 
                 </div>
              </div>
+        </ScrollItem>
         </section>
 
         <section className="locationSection">

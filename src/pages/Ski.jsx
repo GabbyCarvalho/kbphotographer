@@ -116,6 +116,7 @@ export default function Ski() {
                     </div>
                 </div>
 
+                <ScrollItem>
                 <div className="textSide">
                     <h2 className="tittle">What’s Included</h2>
                         <p>→ 2 hours of on-mountain photography</p>
@@ -133,6 +134,7 @@ export default function Ski() {
                         <p> You’ll get a mix of action shots, lifestyle moments, and portraits surrounded by Colorado’s most stunning alpine views.</p>
     
                 </div>
+                </ScrollItem>
 
             </div>
             <Link to="/contact" className="contactBtn">
@@ -142,6 +144,7 @@ export default function Ski() {
         </section>
 
         <section className="section-4">
+            <ScrollItem>
             <div className="textSec4">
                 <h2 className="tittle">Where We Ride</h2>
                 <p>Sessions are available at Keystone Resort, Ikon Pass, and other mountains in Colorado, including:
@@ -160,10 +163,11 @@ export default function Ski() {
                 <img src={sec43} alt="" />
                 <img src={sec44} alt="" />
             </div>
-
+        </ScrollItem>
         </section>
 
         <section className="section-5">
+        
             <div className="sec5">
 
             <img src={gif32} alt="" className="gif"/>
@@ -191,7 +195,7 @@ export default function Ski() {
                 <p>For other resorts, a travel fee and lift ticket may apply.</p>
 
                 <p>A $250 non-refundable retainer secures your spot, with full payment due before the session. Payment plans are available.</p>
-
+        
            </div>
             <div className="photoCollage1">
                 <div className="frame img1">
@@ -235,10 +239,11 @@ export default function Ski() {
                 
                 
             </div>
-            
+        
         </section>
 
         <section className="section-7">
+            <ScrollItem>
             <div className="sec7">
             <div className="textSec7">
                 <h2 className="tittle">Let’s Ride</h2>
@@ -256,6 +261,7 @@ export default function Ski() {
             </div>
             
         </div>
+        </ScrollItem>
         </section>
 
         <section className="formSection">

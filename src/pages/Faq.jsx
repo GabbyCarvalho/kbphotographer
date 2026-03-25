@@ -1,6 +1,7 @@
 import Accordion from "../components/Accordion"
 import Polaroid from "../components/Polaroid";
 import { Link } from "react-router-dom";
+import HoneyBookEmbed from "../components/HoneyBookEmbed";
 import "../styles/faq.css"
 
 
@@ -144,6 +145,19 @@ export default function Faq() {
                 
             
             </section>
+
+              <section className="formSection">
+                          
+        <h2 className="titlePlanning">Have something in mind? Let's Chat! </h2>
+              
+          <div className="contactForm">
+              <HoneyBookEmbed 
+                pid="6621a6daa1587f00085ab204"
+                placementId="6621a6daa1587f00085ab204-1"
+              />
+                          
+          </div>    
+      </section> 
         </>
         
     )

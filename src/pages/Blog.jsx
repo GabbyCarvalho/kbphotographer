@@ -25,6 +25,8 @@ export default function Blog() {
       : posts.filter(post => post.categoryFolder === selectedCategory);
 
   return (
+    <>
+
     <div className="blog-wrapper">
 
       {/* CATEGORIAS */}
@@ -69,6 +71,7 @@ export default function Blog() {
       </div>
 
     </div>
+    </>
   );
 }
 

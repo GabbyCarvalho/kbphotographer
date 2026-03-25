@@ -171,15 +171,22 @@
   }
 
   /* CARD */
-  .blog-card {
-    padding: 10px;
-    border: 1px solid #6f8770;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+.blog-card {
+  padding: 10px;
+  border-radius: 12px;
+  overflow: hidden;
 
-  }
-  
+  background-color: #6f8770; 
+  border: none; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.blog-card h2,
+.blog-card .category,
+.blog-card .excerpt,
+.blog-card .read-more {
+  color: white;
+}
 
   /* IMAGEM */
   .imageBlog-wrapper {

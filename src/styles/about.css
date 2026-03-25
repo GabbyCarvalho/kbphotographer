@@ -276,14 +276,16 @@
 
 @media (max-width: 768px) {
 
-  /* 🔥 TRANSFORMA EM 1 COLUNA */
+
   .grid-container {
     grid-template-columns: 1fr;
     gap: 2rem;
     
   }
+  .tittle {
+  font-size: 1.9rem !important;
+}
 
-  /* 🔥 EMPILHA NA ORDEM CORRETA */
   .grid-container {
     grid-template-areas:
       "tittle"
@@ -312,7 +314,6 @@
       "full2";
   }
 
-  /* 🚨 ISSO É O QUE ESTAVA QUEBRANDO TUDO */
   .img1,
   .img2,
   .img3,
@@ -326,7 +327,6 @@
     overflow: hidden;
   }
 
-  /* GARANTE QUE IMAGEM NÃO ESTOURE */
   .grid-container img {
     height: auto;
     display: flex;
@@ -335,25 +335,24 @@
     overflow: hidden;
   }
 
-  /* AJUSTE DE PADDING PRA NÃO COLAR NAS BORDAS */
   .aboutPage {
     padding: 2rem 1rem;
   }
 
-  /* REMOVE LIMITES QUE CENTRALIZAM MAL */
   .full1,
   .full2 {
     max-width: 100%;
     margin: 2rem auto;
   }
 
-  /* CARD MAIS RESPONSIVO */
+
   .cardBackground {
     padding: 1.5rem 1rem;
   }
 
-}
-
-  .grid-container > div {
+    .grid-container > div {
     width: 100%;
   }
+
+}
+

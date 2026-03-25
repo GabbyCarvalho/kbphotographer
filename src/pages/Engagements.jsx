@@ -54,7 +54,9 @@ export default function Engagements () {
                     <img src={collage5} alt="" />
                 </div>
             
+            
             <div className="smallImages">
+
                 <img src={collage1} alt="" />
                 <img src={collage2} alt="" />
                 <img src={collage3} alt="" />

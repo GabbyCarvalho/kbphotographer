@@ -272,11 +272,13 @@ line-height: 1.55;
 
 
 .formSection{
-    background-color: var(--off-white);
-    color: var(--verde-2);
+  background-color: var(--off-white);
+  color: var(--verde-2);
 }
 
- /* ================= MOBILE ================= */
+/* ================================= MOBILE =================================== */
+
+
 
 @media (max-width: 768px) {
 
@@ -303,13 +305,45 @@ line-height: 1.55;
     padding: 1rem;
   }
 
+
   .smallImages {
+    display: flex;              
     flex-direction: row;
     overflow-x: auto;
+    gap: 1rem;
+    position: relative;
+    padding-bottom: 30px;     
   }
 
   .smallImages img {
-    min-width: 120px;
+    min-width: 200px;           
+    height: auto;
+    display: block;
+  }
+
+
+  .smallImages::-webkit-scrollbar {
+    display: none;
+  }
+
+  .smallImages {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+
+  .smallImages::after {
+    content: "← swipe →";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 0.85rem;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 1px;
+
+    white-space: nowrap;
   }
 
   /* ================= MIDDLE ================= */

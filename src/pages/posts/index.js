@@ -1,5 +1,4 @@
 
-
 import Surprise from "./couples/Surprise";
 import proposal1 from "../../assets/posts/couples/proposal-surprise.jpg"
 
@@ -236,10 +235,14 @@ import Sam from "./sports/Sam";
 import brad from "../../assets/posts/sports/brad.jpg"
 import Brad from "./sports/Brad";
 
+import oi from "../../assets/posts/couples/123.jpg"
+import Teste1 from "./couples/teste1";
+
 
 
 
 export const posts = [
+
 
     {
         slug: "surprise-proposal",

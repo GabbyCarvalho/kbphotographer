@@ -1,3 +1,5 @@
+import { InlineWidget } from "react-calendly";
+
 import HoneyBookEmbed from "../components/HoneyBookEmbed"
 import ScrollItem from "../components/ScrollIItem";
 import proposal from "../assets/contact/proposal-surprise.jpg"
@@ -62,10 +64,11 @@ export default function Contact () {
             </div>        
         </div>
     </section>
-    <section className="scheduleVideoForm">
-        
-        
-    </section>
+
+    <div className="calendlyWrapper">
+        <h2 className="tittle">You can also schedule a video or phone call here: </h2>
+        <InlineWidget url="https://calendly.com/kbphotographer/30min" />   
+    </div>
 
     <section className="photoCollage">
         <div className="footerCollage">

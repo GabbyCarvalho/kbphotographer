@@ -78,7 +78,7 @@ color: #315034;
   letter-spacing: 2px;
 }
 
-/*========================= MOBILE ===================================*/
+/* ========================= MOBILE =================================== */
 
 @media (max-width: 768px) {
 
@@ -101,15 +101,16 @@ color: #315034;
     gap: 25px;
   }
 
-  /* CARD */
+  /* 🔥 CARD (verde do projeto) */
   .list li {
     padding: 15px;
-    border: 1px solid #6f8770;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  
 
+    background-color: #6f8770; /* 👈 seu verde */
+    border: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   }
 
   /* IMAGEM */
@@ -118,22 +119,34 @@ color: #315034;
     height: auto;
   }
 
-  /* TEXTOS */
+  /* 🔥 TEXTOS (contraste) */
+  .vendorsName,
+  .vendorsService,
+  .vendorsDescription,
+  .list li a {
+    color: white;
+  }
+
+  /* destaque no nome */
   .vendorsName {
     font-size: 18px;
+    font-weight: 600;
     padding: 0.5rem 0;
+    letter-spacing: 0.5px;
   }
 
   .vendorsService {
     font-size: 14px;
     padding: 0 0 0.5rem 0;
+    color: rgba(255,255,255,0.8);
   }
 
   .vendorsDescription {
     font-size: 14px;
     line-height: 1.6;
-    letter-spacing: 0.04em; /* melhora leitura no mobile */
+    letter-spacing: 0.04em;
     padding: 0.5rem 0;
+    color: rgba(255,255,255,0.9);
   }
 
   /* LINK */
@@ -141,6 +154,7 @@ color: #315034;
     display: inline-block;
     margin-top: 10px;
     font-size: 13px;
+    text-decoration: underline;
   }
 
   /* CTA */
