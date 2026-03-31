@@ -107,10 +107,12 @@
   font-weight: 300;
   margin-bottom: 3rem;
   color:#416645;
+  
 }
 
 .cardsSection .tittle {
 margin-bottom: 1rem;
+
 }
 
 .cardsArea {
@@ -127,6 +129,7 @@ margin-bottom: 1rem;
   padding: 2rem 1.5rem 2.5rem;
   border: 1px solid transparent;
   transition: background 0.4s ease, transform 0.4s ease, border-color 0.4s ease;
+  
 }
 
 .card:hover {
@@ -150,6 +153,7 @@ margin-bottom: 1rem;
   margin-bottom: 1rem;
   color: black;
   font-weight: 300;
+ 
 }
 
 .cardLinks {
@@ -157,16 +161,25 @@ margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  
 }
 
 .cardLinks a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: black;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: opacity 0.3s ease;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+
 }
 
 .cardLinks a:hover {
@@ -270,6 +283,13 @@ margin-bottom: 1rem;
   .cardTitle {
     font-size: 1.5rem;
   }
+
+.card a,
+.card a:visited,
+.card a:active {
+  text-decoration: none;
+  color: black;
+}
 
   /* ---------- TITLES ---------- */
   .tittle {

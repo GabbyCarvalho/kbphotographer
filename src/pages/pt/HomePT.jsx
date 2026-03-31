@@ -92,33 +92,37 @@ export default function HomePT() {
     
             <div className="cardsArea">
               <div className="card">
+                <Link to="/engagements">
                     <img src={weddingGif} alt="wedding" />
                     <h3 className="cardTitle">Casais</h3>
     
                     <div className="cardLinks">
-                        <Link to="/engagements">NOIVADOS</Link>
-    
-                    
+                        <p>NOIVADOS</p>  
                     </div>
+                </Link>
             </div>
     
             <div className="card">
+              <Link to="/headshots">
                     <img src={headshotsGif} alt="headshots" />
                      <h3 className="cardTitle">Branding</h3>
     
                     <div className="cardLinks">
-                        <Link to="/headshots">HEADSHOTS</Link>
+                        <p>HEADSHOTS</p>
                     </div>
+                </Link>
                 </div>
     
             <div className="card">
+              <Link to="/ski">
                     <img src={lifestyleGif} alt="lifestyle" />
                     <h3 className="cardTitle">Estilo de Vida</h3>
     
                     <div className="cardLinks">
-                        <Link to="/families">FAMILIA</Link>
-                        <Link to="/ski">ESPORTS</Link>
+                        <p>FAMILIA</p>
+                        <p>ESPORTS</p>
                     </div>
+            </Link>
             </div>
     
     

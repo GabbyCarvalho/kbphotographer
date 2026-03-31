@@ -132,32 +132,42 @@ export default function Home() {
             <h2 className="tittle">Explore My Work</h2>
 
             <div className="cardsArea">
+              
               <div className="card">
+                <Link to="/engagements">
                 <img src={weddingGif} alt="wedding" />
                 <h3 className="cardTitle">Couples</h3>
 
                 <div className="cardLinks">
-                  <Link to="/engagements">ENGAGEMENT / ELOPMENT</Link>
+                  <p className="cardLink">ENGAGEMENT / ELOPMENT</p>
                 </div>
+                </Link>
               </div>
+              
 
               <div className="card">
+                <Link to="/headshots">
                 <img src={headshotsGif} alt="headshots" />
                 <h3 className="cardTitle">Branding</h3>
 
                 <div className="cardLinks">
-                  <Link to="/headshots">HEADSHOTS</Link>
+                  <p className="cardLink">HEADSHOTS</p>
                 </div>
+                </Link>
               </div>
+              
+              
 
               <div className="card">
+                <Link to="/ski">
                 <img src={lifestyleGif} alt="lifestyle" />
                 <h3 className="cardTitle">Lifestyle</h3>
 
                 <div className="cardLinks">
-                  <Link to="/families">FAMILY</Link>
-                  <Link to="/ski">SPORTS</Link>
+                  <p className="cardLink">FAMILY</p>
+                  <p className="cardLink">SPORTS</p>
                 </div>
+                </Link>
               </div>
             </div>
           </div>

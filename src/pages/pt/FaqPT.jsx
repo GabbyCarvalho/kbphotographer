@@ -101,7 +101,7 @@ export default function FaqPT() {
 
                 <Accordion title="Posso postar nas redes sociais?">
                     <p>
-                        Claro! Só não esqueça de me marcar 😊
+                        Claro! Só não esqueça de me marcar <a href="https://www.instagram.com/kbphotographer.sports/" target="_blank">@kbphotographer.sports</a>  ou <a href="https://www.instagram.com/kbphotographer.engagement/" target="_blank">@kbphotographer.engagement</a>
                     </p>
                 </Accordion>
 

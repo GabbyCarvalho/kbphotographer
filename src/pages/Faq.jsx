@@ -72,7 +72,7 @@ export default function Faq() {
                     {/* 5 */}
                     <Accordion title="  How do I book a session?">
                     <p>
-                        Booking is easy! Just reach out through my <Link to="/contact" className="contactMePage">contact page</Link> or email me at <a href="mailto:hello@kbphotographer.com" className="email">hello@kbphotographer.com</a> with your vision, location, and preferred date. I’ll reply with availability, packages, and all the details you need.
+                        Booking is easy! Just reach out through my <Link to="/contact" target="_blank">contact page</Link> or email me at <a href="mailto:hello@kbphotographer.com" className="email">hello@kbphotographer.com</a> with your vision, location, and preferred date. I’ll reply with availability, packages, and all the details you need.
                     </p>
                     </Accordion>
                     {/* 6 */}
@@ -91,14 +91,14 @@ export default function Faq() {
                     <Accordion title="What should I wear for my session?">
                     <p>
                          Wear what feels like you! For outdoor sessions, layers, textures, and colors that complement the landscape work beautifully. For snowy or adventure shoots, think about movement, comfort, and warmth. I’m happy to give personal wardrobe tips too—check out more ideas on my 
-                         <a className="externalLink" href="https://kbphotographer.com/Categories/blog.html" target="_blank"> blog</a>.
+                         <Link to="/blog" target="_blank"> blog</Link>.
                     </p>
                     </Accordion>
                     {/* 9 */}
                     <Accordion title=" Can I get prints, albums, or wall art from my session?">
                     <p>
                          Absolutely! I offer prints, albums, wall displays, digital downloads, and greeting cards, all crafted with care so your memories can be enjoyed for years. I also collaborate with amazing partners to create unique display options, you can explore those here: 
-                         <a className="externalLink" href="https://kbphotographer.com/Blog/dp_designs_stuff_collab_kbphotographer.html" target="_blank">DP Designs & Stuff x KB Photographer</a>.
+                         <Link to="/blog/bringing-memories-to-light" target="_blank">DP Designs & Stuff x KB Photographer</Link>.
                     </p>
                     </Accordion>
                     {/* 10 */}
@@ -110,7 +110,7 @@ export default function Faq() {
                     {/* 11 */}
                     <Accordion title="Can I share my photos on social media?">
                     <p>
-                        Yes! Please tag me <a href="https://www.instagram.com/kbphotographer.engagements" className="externalLink">@kbphotographer.engagements</a> and <a href="https://www.instagram.com/kbphotographer.sports" className="link-body-emphasis">@kbphotographer.sports</a> when posting so we can share the stoke. I love seeing your photos in action!
+                        Yes! Please tag me <a href="https://www.instagram.com/kbphotographer.sports/" target="_blank">@kbphotographer.sports</a>  or at <a href="https://www.instagram.com/kbphotographer.engagement/" target="_blank">@kbphotographer.engagement</a>  when posting so we can share the stoke. I love seeing your photos in action!
                     </p>
                     </Accordion>
                     {/* 12 */}
@@ -131,13 +131,13 @@ export default function Faq() {
                          Yes! If you’re planning an engagement session and want a little extra support, I’ve curated a list of vendors I’ve personally worked with and trust, like makeup artists, videographers, and creative partners who understand outdoor, mountain, and adventure sessions. These are people who know how to enhance the experience without overcomplicating it.  
         
                          You can explore my recommended engagement-friendly vendors here: 
-                        <a className="externalLink" href="https://kbphotographer.com/Categories/vendor_list.html" target="_blank">KB Photographer Vendor List</a>.
+                        <Link to="/vendors-list" target="_blank">KB Photographer Vendor List</Link>.
                     </p>
                     </Accordion>
                     {/* 15 */}
                     <Accordion title="Do you travel outside Colorado for engagement sessions?">
                     <p>
-                        Yes! Colorado is home and where I photograph most engagement sessions, but I’m always open to traveling for meaningful adventures. If you’re planning an engagement session somewhere special, a destination you love, a place tied to your story, or part of a bigger trip <a className="externalLink" href="https://kbphotographer.com/contact.html">reach out here</a> and let’s talk through the details together.
+                        Yes! Colorado is home and where I photograph most engagement sessions, but I’m always open to traveling for meaningful adventures. If you’re planning an engagement session somewhere special, a destination you love, a place tied to your story, or part of a bigger trip <Link to="/contact" target="_blank">reach out here</Link> and let’s talk through the details together.
                     </p>
                     </Accordion>
 
