@@ -298,11 +298,54 @@ header {
 
 /* ================= DESKTOP AJUSTE ================= */
 @media (max-width: 1200px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    width: 100%;
+  }
+
   .navLinks {
-    gap: 1rem;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--verde-musgo);
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 2rem 0;
+    z-index: 1001;
+  }
+
+  .navLinks.open {
+    display: flex;
   }
 
   .navLinks a {
     font-size: 1rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .logo img {
+    height: 55px;
+    object-fit: contain;
+  }
+
+  .navLinks .flags {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .navLinks .flags img {
+    width: 28px;
+    height: 18px;
+    object-fit: cover;
+    cursor: pointer;
   }
 }
