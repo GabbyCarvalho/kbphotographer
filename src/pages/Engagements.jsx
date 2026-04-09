@@ -100,7 +100,7 @@ export default function Engagements () {
             <div className="experience">
              <div className="left2">
                 
-                <div className="smallImages">
+                <div className="engagementExperience">
                     <img src={pic1} alt="" />
                 </div>
             </div>

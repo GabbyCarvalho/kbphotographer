@@ -74,7 +74,7 @@ export default function HomePT() {
         <div className="aboutText">
         <h2 className="tittle">Inspirada pela aventura, emoção e luz natural</h2>
         <p>Acredito profundamente em uma fotografia que vai além do simples registro, buscando sempre capturar a essência do momento de maneira autêntica e atemporal. Para mim, cada clique deve ser intencional, equilibrando a beleza da estética com uma narrativa genuína. Minha abordagem mistura a fluidez da fotografia documental com a sofisticação da fotografia fine art e o dinamismo da fotografia de moda. Com um olhar atento, sem pressa e sem imposições, essa união de estilos é o que me inspira e me move a criar imagens que não apenas documentam, mas que realmente falam ao coração de quem as vê, criando memórias que perduram para sempre.</p>
-        <Link to="/about">
+        <Link to="/pt/about">
             <button className="aboutBtn">Saiba Mais</button>
         </Link>
         </div>
@@ -91,45 +91,45 @@ export default function HomePT() {
         <h2 className="tittle">Explore meu Trabalho</h2>
     
             <div className="cardsArea">
-              <div className="card">
-                <Link to="/engagements">
+              <Link to="/engagements">
+                <div className="card">
+                
                     <img src={weddingGif} alt="wedding" />
                     <h3 className="cardTitle">Casais</h3>
     
                     <div className="cardLinks">
                         <p>NOIVADOS</p>  
                     </div>
+                  </div>
                 </Link>
-            </div>
-    
+            
+
+            <Link to="/headshots">
             <div className="card">
-              <Link to="/headshots">
+              
                     <img src={headshotsGif} alt="headshots" />
                      <h3 className="cardTitle">Branding</h3>
     
                     <div className="cardLinks">
                         <p>HEADSHOTS</p>
                     </div>
-                </Link>
                 </div>
-    
+            </Link>
+
+          <Link to="/ski">
             <div className="card">
-              <Link to="/ski">
                     <img src={lifestyleGif} alt="lifestyle" />
                     <h3 className="cardTitle">Estilo de Vida</h3>
     
                     <div className="cardLinks">
-                        <p>FAMILIA</p>
-                        <p>ESPORTS</p>
+                        <p>FAMILIA / ESPORTES</p>
                     </div>
-            </Link>
             </div>
+          </Link>
     
     
     
-        </div>
-    
-    
+        </div>  
     </div>
     </div>
     </ScrollItem>

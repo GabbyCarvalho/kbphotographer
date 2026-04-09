@@ -121,7 +121,7 @@ export default function AboutPT() {
        </h2>
        <p>Se você estiver pronto para trabalharmos juntos, adoraria ouvir mais de você.</p>
 
-       <Link to="/contact" className="seeReviewsBtn">
+       <Link to="/pt/contact" className="seeReviewsBtn">
          CONTATO
        </Link>
      </section>

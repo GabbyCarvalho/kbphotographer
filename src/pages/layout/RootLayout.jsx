@@ -72,17 +72,15 @@ export default function RootLayout () {
                 {isPT ? "LOJA" : "STORE"}
               </Link>
 
-            </div>
-
-            {/* FLAGS */}
-            <div className="flags">
-              <Link to="/pt">
-                <img src={br} alt="Português" />
-              </Link>
-
-              <Link to="/">
-                <img src={us} alt="English" />
-              </Link>
+              {/* FLAGS dentro do menu */}
+              <div className="flags">
+                <Link to="/pt" onClick={() => setMenuOpen(false)}>
+                  <img src={br} alt="Português" />
+                </Link>
+                <Link to="/" onClick={() => setMenuOpen(false)}>
+                  <img src={us} alt="English" />
+                </Link>
+              </div>
             </div>
 
             {/* HAMBURGER */}

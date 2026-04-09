@@ -456,18 +456,40 @@ margin: 2rem auto;
   }
 
   .polaroids {
-    position: static;
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;
     gap: 1rem;
     overflow-x: auto;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
   .polaroids img {
     position: static;
     width: 200px;
     transform: none;
+  }
+
+
+  .polaroids::-webkit-scrollbar {
+    display: none;
+  }
+
+  .polaroids::after {
+    content: "← swipe →";
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    transform: translateX(-50%);
+
+    font-size: 0.85rem;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 1px;
+
+    white-space: nowrap;
   }
 
   /* ================= SECTION 4 ================= */

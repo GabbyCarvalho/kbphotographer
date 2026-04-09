@@ -216,6 +216,12 @@ padding: 2rem 0;
 /* ============== MOBILE ===============*/
 @media (max-width: 768px) {
 
+  /* ================= RESET ================= */
+  html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
   /* ================= HERO ================= */
   .hero {
     height: 70vh;
@@ -253,9 +259,14 @@ padding: 2rem 0;
     grid-template-areas:
       "image"
       "form";
-    
     gap: 2rem;
     padding: 0 1rem;
+
+    height: auto !important;
+    overflow: visible !important;
+
+    position: relative;
+    z-index: 10;
   }
 
   .imageForm img {
@@ -264,43 +275,83 @@ padding: 2rem 0;
 
   .contactForm {
     padding: 1.5rem;
+    position: relative;
+    z-index: 10;
   }
 
+  /* ================= CALENDLY ================= */
   .calendlyWrapper {
-  width: 100%;
-  height: 700px;
-}
+    width: 100%;
+    padding: 2rem 0;
 
-/* ================= COLLAGE ================= */
-.footerCollage {
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  padding: 1rem;
+    height: auto !important;
+    overflow: visible !important;
+
+    position: relative;
+    z-index: 10;
+
+    margin-bottom: 100px; /* 🔥 ÚNICA ALTERAÇÃO REAL */
+  }
+
+  .calendlyWrapper iframe {
+    width: 100% !important;
+    min-height: 1200px;
+    height: auto !important;
+    border: none;
+    display: block;
+  }
+
+  /* ================= COLLAGE ================= */
+ .footerCollage { 
+  height: auto; 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem; padding: 1rem; 
+  position: relative; 
+  z-index: 1; 
+  margin-top: 3rem; 
 }
 
 /* estilo base */
-.frame {
+
+.frame { 
   position: relative;
-  width: 100%;
-  height: 200px;
-  left: unset;
-  top: unset;
-  padding: 10px;
-  border-width: 8px;
+  width: 100%; 
+  height: 200px; 
+  left: unset; 
+  top: unset; 
+  padding: 10px; 
+  border-width: 8px; 
+  
+} 
+
+  .frame img { 
+    width: 100%; 
+    height: 100%;
+  } 
+.footerCollage .frame { 
+  position: relative !important; 
+  top: unset !important; 
+  left: unset !important; 
 }
 
-.frame img {
-  width: 100%;
-  height: 100%;
-}
-
-
-.img-3 {
-  grid-column: span 2;
+.img-3 { 
+  grid-column: span 2; 
   justify-self: center;
-  width: 60%;
-}
+  width: 60%;    
+} 
 
-}
+.calendly-container { 
+  width: 100%; min-height: 100vh; 
+} 
+
+.calendlyWrapper { 
+  width: 100%;
+  padding: 2rem 1rem; 
+  height: auto;
+} 
+
+.calendlyWrapper iframe {
+  width: 100% !important; 
+  min-height: 750px; 
+  display: block; } }

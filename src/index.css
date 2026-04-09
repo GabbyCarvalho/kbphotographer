@@ -197,6 +197,7 @@ header {
 }
 
 /* ================= MOBILE ================= */
+/* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
   body {
@@ -207,7 +208,7 @@ header {
   .navbar {
     justify-content: space-between;
     padding: 0.8rem 1rem;
-     width: 100%;
+    width: 100%;
   }
 
   /* MENU */
@@ -217,11 +218,10 @@ header {
     top: 100%;
     left: 0;
     width: 100%;
-    max-width: 100%;
     background: var(--verde-musgo);
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
     padding: 2rem 0;
     z-index: 1001;
   }
@@ -231,7 +231,7 @@ header {
   }
 
   .navLinks a {
-    font-size: 1.1rem;
+    font-size: 1rem; /* reduz um pouco a fonte */
   }
 
   /* HAMBURGER */
@@ -239,9 +239,19 @@ header {
     display: flex;
   }
 
-  /* FLAGS */
-  .flags {
-    display: none;
+  /* FLAGS dentro do menu mobile */
+  .navLinks .flags {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .navLinks .flags img {
+    width: 28px;
+    height: 18px;
+    object-fit: cover;
+    cursor: pointer;
   }
 
   /* LOGO */
@@ -274,6 +284,25 @@ header {
     justify-content: center;
   }
 }
-html, body {
-  overflow-x: hidden;
+
+/* ================= TABLET / MÉDIO ================= */
+@media (max-width: 1024px) {
+  .navLinks {
+    gap: 1rem; /* reduz o espaço entre links */
+  }
+
+  .navLinks a {
+    font-size: 0.95rem; /* reduz fonte */
+  }
+}
+
+/* ================= DESKTOP AJUSTE ================= */
+@media (max-width: 1200px) {
+  .navLinks {
+    gap: 1rem;
+  }
+
+  .navLinks a {
+    font-size: 1rem;
+  }
 }

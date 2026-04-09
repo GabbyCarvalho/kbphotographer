@@ -129,6 +129,7 @@ margin-bottom: 1rem;
   padding: 2rem 1.5rem 2.5rem;
   border: 1px solid transparent;
   transition: background 0.4s ease, transform 0.4s ease, border-color 0.4s ease;
+  font-family: 'Playfair Display', serif;
   
 }
 
@@ -150,7 +151,6 @@ margin-bottom: 1rem;
   font-style: italic;
   letter-spacing: 0.08em;
   font-size: 2rem;
-  margin-bottom: 1rem;
   color: black;
   font-weight: 300;
  
@@ -161,7 +161,13 @@ margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  font-weight: 300;
+
   
+}
+.cardLinks p {
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .cardLinks a {
@@ -174,16 +180,24 @@ margin-bottom: 1rem;
   transition: opacity 0.3s ease;
 }
 
-.card a {
-  text-decoration: none;
-  color: inherit;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-
-}
-
 .cardLinks a:hover {
   opacity: 0.6;
+}
+
+.cardsArea a,
+.cardsArea a:visited,
+.cardsArea a:hover,
+.cardsArea a:active {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 300;
+}
+
+.cardTitle,
+.cardLinks {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  
 }
 
 /* ---------- REVIEWS ---------- */
