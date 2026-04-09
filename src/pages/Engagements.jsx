@@ -24,7 +24,7 @@ export default function Engagements () {
         <>
         <section className="heroSection">
             <ScrollItem>
-            <p className="heroText">Planning to propose? Let me capture the yes.</p>
+            <p className="heroText">Planning to Propose?<br/>Let capture the yes</p>
             </ScrollItem>
         </section>
 
