@@ -67,7 +67,9 @@ header {
 .navLinks {
   display: flex;
   align-items: center;
-  gap: 1.7rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .navLinks a {
@@ -293,6 +295,26 @@ header {
 
   .navLinks a {
     font-size: 0.95rem; /* reduz fonte */
+  }
+}
+
+/* ================= WIDE LAPTOP ================= */
+@media (max-width: 1400px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .navLinks {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .navLinks a {
+    font-size: 1rem;
+  }
+
+  .logo img {
+    height: 70px;
   }
 }
 
