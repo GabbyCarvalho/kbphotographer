@@ -188,69 +188,7 @@
   transform: rotate(-8deg);
 }
 
-@media (max-width: 1320px) {
-  .section-3 {
-    padding: 4rem 1rem 6rem;
-  }
 
-  .wrapper {
-    grid-template-columns: 60% 40%;
-    gap: 2rem;
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    justify-items: start;
-  }
-
-  .textSide {
-    margin-left: 0;
-    padding-left: 0;
-    max-width: 460px;
-  }
-
-  .visualSide {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 1rem;
-  }
-
-  .gifSec3 {
-    width: 100%;
-    max-width: 340px;
-    padding: 16px;
-  }
-
-  .gifSec3 img {
-    width: 100%;
-    height: auto;
-  }
-
-  .polaroids {
-    position: relative;
-    width: 230px;
-    height: 320px;
-  }
-
-  .polaroids img {
-    width: 190px;
-  }
-
-  .p1 {
-    top: -110px;
-    left: -20px;
-  }
-
-  .p2 {
-    top: 95px;
-    left: 130px;
-  }
-
-  .p3 {
-    top: 150px;
-    left: -20px;
-  }
-}
 .p2 {
   top: 100px;
   left: 190px;
@@ -638,5 +576,73 @@ margin: 2rem auto;
   .gifSec7 img {
     width: 100%;
     height: auto;
+  }
+}
+
+
+/* ================= SECTION 4 FOR SMALLER SCREEN ================= */
+@media (max-width: 1320px) {
+  .section-3 {
+    padding: 5.5rem 1rem 7rem;
+  }
+
+  .wrapper {
+    grid-template-columns: 60% 40%;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    justify-items: start;
+  }
+
+  .textSide {
+    margin-left: 25px;
+    padding-left: 0;
+    max-width: 400px;
+  }
+
+  .visualSide {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.6rem;
+    margin-left: -90px;
+  }
+
+  .gifSec3 {
+    width: 100%;
+    max-width: 300px;
+    padding: 16px;
+  }
+
+  .gifSec3 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .polaroids {
+    position: relative;
+    width: 210px;
+    height: 290px;
+    margin-top: 30px;
+  }
+
+  .polaroids img {
+    width: 170px;
+  }
+
+  .p1 {
+    top: -90px;
+    left: 1px;
+  }
+
+  .p2 {
+    top: 90px;
+    left: 180px;
+  }
+
+  .p3 {
+    top: 150px;
+    left: -5px;
   }
 }
