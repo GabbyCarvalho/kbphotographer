@@ -190,32 +190,34 @@
 
 @media (max-width: 1320px) {
   .section-3 {
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 5rem;
   }
 
   .wrapper {
-    display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 58% 42%;
     gap: 2rem;
-    max-width: 1100px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 0 1rem;
+    justify-items: start;
   }
 
   .textSide {
     margin-left: 0;
     padding-left: 0;
+    max-width: 480px;
   }
 
   .visualSide {
     flex-direction: row;
     align-items: flex-start;
-    gap: 1.5rem;
+    justify-content: flex-start;
+    gap: 1rem;
   }
 
   .gifSec3 {
     width: 100%;
-    max-width: 420px;
+    max-width: 380px;
     padding: 16px;
   }
 
@@ -226,7 +228,7 @@
 
   .polaroids {
     position: relative;
-    width: 260px;
+    width: 250px;
     height: 340px;
   }
 
@@ -240,8 +242,8 @@
   }
 
   .p2 {
-    top: 90px;
-    left: 140px;
+    top: 100px;
+    left: 155px;
   }
 
   .p3 {
