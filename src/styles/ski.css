@@ -190,11 +190,11 @@
 
 @media (max-width: 1320px) {
   .section-3 {
-    padding: 3rem 1rem 5rem;
+    padding: 4rem 1rem 6rem;
   }
 
   .wrapper {
-    grid-template-columns: 58% 42%;
+    grid-template-columns: 60% 40%;
     gap: 2rem;
     max-width: 1080px;
     margin: 0 auto;
@@ -205,7 +205,7 @@
   .textSide {
     margin-left: 0;
     padding-left: 0;
-    max-width: 480px;
+    max-width: 460px;
   }
 
   .visualSide {
@@ -217,7 +217,7 @@
 
   .gifSec3 {
     width: 100%;
-    max-width: 380px;
+    max-width: 340px;
     padding: 16px;
   }
 
@@ -228,26 +228,26 @@
 
   .polaroids {
     position: relative;
-    width: 250px;
-    height: 340px;
+    width: 230px;
+    height: 320px;
   }
 
   .polaroids img {
-    width: 200px;
+    width: 190px;
   }
 
   .p1 {
-    top: -120px;
+    top: -110px;
     left: -20px;
   }
 
   .p2 {
-    top: 100px;
-    left: 155px;
+    top: 95px;
+    left: 130px;
   }
 
   .p3 {
-    top: 160px;
+    top: 150px;
     left: -20px;
   }
 }
