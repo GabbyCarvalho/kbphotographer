@@ -51,6 +51,17 @@
    
 }
 
+@media (max-width: 1320px) {
+  .planning {
+    align-items: stretch;
+  }
+
+  .planning > .left,
+  .planning > .right {
+    align-self: stretch;
+  }
+}
+
 .titlePlanning {
     font-family: 'Playfair Display', serif;
     text-align: center;
