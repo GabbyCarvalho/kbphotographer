@@ -60,6 +60,32 @@
   .planning > .right {
     align-self: stretch;
   }
+
+  .fourthSection {
+    justify-items: center;
+    padding: 0 1rem;
+  }
+
+  .fourthSectionText {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .fourthSectionGif {
+    width: 100%;
+    padding: 2rem 0;
+    justify-self: center;
+  }
+
+  .fourthSectionGif img {
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .titlePlanning {
