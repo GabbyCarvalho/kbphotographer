@@ -187,6 +187,58 @@
   left: -25px;
   transform: rotate(-8deg);
 }
+
+@media (max-width: 1320px) {
+  .section-3 {
+    padding: 3rem 1rem;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .textSide {
+    margin-left: 0;
+  }
+
+  .visualSide {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .gifSec3 {
+    width: 100%;
+    max-width: 720px;
+    padding: 16px;
+  }
+
+  .gifSec3 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .polaroids {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+
+  .polaroids img {
+    position: static;
+    width: 100%;
+    transform: none;
+  }
+}
 .p2 {
   top: 100px;
   left: 190px;
