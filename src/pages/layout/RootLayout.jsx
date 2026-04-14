@@ -165,7 +165,8 @@ export default function RootLayout () {
 
             <div>
               <p className="titleFooter">Powered By</p>
-              <p className="regularText">Pic-time & HoneyBook</p>
+              <a href="https://kbphotographer.pic-time.com/referral" target="_blank" className="regularText">Pic-time </a>
+              <a href="https://app.honeybook.com/signup?redirect=true&code=karina4278693" target="_blank" className="regularText">HoneyBook</a>
             </div>
 
             <div>
