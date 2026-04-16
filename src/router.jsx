@@ -26,6 +26,7 @@ import AboutPT from "./pages/pt/AboutPT"
 import ContactPT from "./pages/pt/ContactPT"
 import BlogPT from "./pages/pt/BlogPT"
 import PolicyPT from "./pages/pt/PolicyPT"
+import BlogPostPT from "./pages/pt/BlogPostPT"
 
 const router = createBrowserRouter([
   {
@@ -67,9 +68,17 @@ const router = createBrowserRouter([
     { index: true, element: <HomePT /> },
     { path: "about", element: <AboutPT /> },
     { path: "contact", element: <ContactPT /> },
-    { path: "blog", element: <BlogPT /> },
+
+    
+    { path: "blog", 
+      children: [
+        { index: true, element: <BlogPT /> },
+        { path: ":slug", element: <BlogPostPT /> }
+      ]
+    },
+
     { path: "privacy-policy", element: <PolicyPT /> },
-     { path: "faq", element: <FaqPT /> },
+    { path: "faq", element: <FaqPT /> },
 
     { path: "galleries", element: <Galleries /> },
     { path: "engagements", element: <Engagements /> },

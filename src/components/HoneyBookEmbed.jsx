@@ -14,10 +14,18 @@ export default function HoneyBookEmbed({ pid, placementId }) {
     // recria container
     const div = document.createElement("div");
     div.className = `hb-p-${placementId}`;
-
     containerRef.current.appendChild(div);
 
-    // recria script TODA VEZ (🔥 isso resolve)
+    // 🔥 REMOVE script antigo antes de criar outro
+    const existing = document.querySelector(
+      'script[src*="placement-controller.min.js"]'
+    );
+
+    if (existing) {
+      existing.remove();
+    }
+
+    // recria script TODA VEZ (mantém seu comportamento)
     const script = document.createElement("script");
     script.src =
       "https://widget.honeybook.com/assets_users_production/websiteplacements/placement-controller.min.js";

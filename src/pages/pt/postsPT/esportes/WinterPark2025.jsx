@@ -22,8 +22,8 @@ export default function WinterPark2025() {
         Ou daquele momento em que você desceu a montanha se sentindo tão bem.
 
         Você pode ver e comprar as imagens na galeria abaixo. É só clicar no botão e procurar pelo seu casaco, sua prancha, seu estilo.
-        Want Your Own Session on the Mountain?
-        Faço sessões personalizadas para:
+        Quer fazer sua sessão na neve?
+        Faço sessões personalizadas a partir de $750 por sessão para:
 
         ⫸ Individuais (snowboard, ski, retratos lifestyle)
 
@@ -36,7 +36,7 @@ export default function WinterPark2025() {
         Vamos andar juntas(os), explorar a montanha e fotografar de forma leve e natural em qualquer resort no Colorado. Se você está planejando passar a temporada nas montanhas, vamos registrar esse momento.
         View Full Gallery
         Pronta(o) para agendar?
-        Me chama aqui em baixo e combinamos tudo </script><template data-pt-type='blog' data-pt-slideshowid='691234740801481054971a8d' ></template><script src='https://gallery.kbphotographer.com/-winterparkskiresortopeningweekend20252026/slideswebcomponentembed.js/691234740801481054971a8d?features=pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='691234740801481054971a8d'></script>`} />
+        Me chama aqui em baixo e combinamos tudo.</script><template data-pt-type='blog' data-pt-slideshowid='691234740801481054971a8d' ></template><script src='https://gallery.kbphotographer.com/-winterparkskiresortopeningweekend20252026/slideswebcomponentembed.js/691234740801481054971a8d?features=lightbox,pinterest&filtertags=' type='text/javascript' data-pt-scriptslideshowid='691234740801481054971a8d'></script>`} />
 
 
  <section className="formSection">

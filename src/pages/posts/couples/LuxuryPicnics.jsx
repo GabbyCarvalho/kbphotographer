@@ -5,8 +5,8 @@ export default function LuxuryPicnics() {
     return(
         <>
         <PicTimePost
-        embedCode=" <script>
-        const searchread_6944161e7c2baeebd6e82b2d = `Brightfolk gatherings
+        embedCode={`      <script>
+        const searchread_6944161e7c2baeebd6e82b2d = Brightfolk gatherings
         General
         December 31, 2025
         Planning a proposal in Colorado means more than choosing a ring... it’s about finding a place and a moment that feels true to your story. With the mountains as your backdrop and intention in every detail, your proposal becomes an experience you’ll remember forever.
@@ -88,9 +88,17 @@ export default function LuxuryPicnics() {
         BRIGHTFOLK GATHERINGS
 
         Venue
-        AT YOUR CHOSEN LOCATION IN COLORADO`;
-            </script>"
-            />
+        AT YOUR CHOSEN LOCATION IN COLORADO
+              </script>
+              <template
+                data-pt-type="blog"
+                data-pt-slideshowid="6944161e7c2baeebd6e82b2d"
+              ></template>
+              <script
+                src="https://gallery.kbphotographer.com/-blogs/slideswebcomponentembed.js/6944161e7c2baeebd6e82b2d?features=pinterest&filtertags="
+                type="text/javascript"
+                data-pt-scriptslideshowid="6944161e7c2baeebd6e82b2d"
+              ></script>`} />
 
       <section className="formSection">
                           

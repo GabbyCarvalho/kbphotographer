@@ -796,15 +796,15 @@ export const posts = [
         component: MirleneMaternitySession
     },
 
-        {
-        slug: "landscape-loveland-pass-RMNP",
-        categoryFolder: "couples",
-        title: "Elopement and Wedding Locations in Colorado Mountains",
-        category: "with KB PHOTOGRAPHER",
-        excerpt: `Have you ever dreamed of saying "I do" with the majestic Rocky Mountains as your witness? Picture yourself and your beloved standing on a cliff overlooking a breathtaking valley, the sun setting behind the peaks turning the sky into a canvas of vibrant colors. This is the magic of eloping in the Colorado mountains near Denver.`,
-        image: elopementLocations,
-        component: ElopementLocations
-    },
+    //     {
+    //     slug: "landscape-loveland-pass-RMNP",
+    //     categoryFolder: "couples",
+    //     title: "Elopement and Wedding Locations in Colorado Mountains",
+    //     category: "with KB PHOTOGRAPHER",
+    //     excerpt: `Have you ever dreamed of saying "I do" with the majestic Rocky Mountains as your witness? Picture yourself and your beloved standing on a cliff overlooking a breathtaking valley, the sun setting behind the peaks turning the sky into a canvas of vibrant colors. This is the magic of eloping in the Colorado mountains near Denver.`,
+    //     image: elopementLocations,
+    //     component: ElopementLocations
+    // },
 
 
         {
@@ -887,15 +887,15 @@ export const posts = [
         component: KarlyMaternitySession
     },
 
-        {
-        slug: "landscape-loveland-pass-RMNP-rocky-mountain-National-park-elopment-location-wedding-couples",
-        categoryFolder: "couples",
-        title: "Elopement and Wedding Locations",
-        category: "in Colorado Mountains near Denver",
-        excerpt: `Discover breathtaking elopement and wedding locations in the Colorado mountains near Denver. Explore stunning landscapes, from RMNP to Loveland Pass, and get personalized guides tailored for your special day. Perfect for couples looking to say "I do" amidst nature's beauty.`,
-        image: elopementLocations,
-        component: Locations
-    },
+    //     {
+    //     slug: "landscape-loveland-pass-RMNP-rocky-mountain-National-park-elopment-location-wedding-couples",
+    //     categoryFolder: "couples",
+    //     title: "Elopement and Wedding Locations",
+    //     category: "in Colorado Mountains near Denver",
+    //     excerpt: `Discover breathtaking elopement and wedding locations in the Colorado mountains near Denver. Explore stunning landscapes, from RMNP to Loveland Pass, and get personalized guides tailored for your special day. Perfect for couples looking to say "I do" amidst nature's beauty.`,
+    //     image: elopementLocations,
+    //     component: Locations
+    // },
 
         {
         slug: "wedding-photography",
