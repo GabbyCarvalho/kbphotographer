@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { posts } from "./posts";
+import "../styles/blog.css";
 
 export default function BlogPost() {
   const { slug } = useParams();
@@ -8,7 +9,7 @@ export default function BlogPost() {
   const post = posts.find((p) => p.slug === slug);
 
   if (!post) {
-    return <h2>Post not found</h2>;
+    return <h2 className="postNotFound">Post not found</h2>;
   }
 
   const PostComponent = post.component;
