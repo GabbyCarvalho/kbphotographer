@@ -235,14 +235,54 @@ import Sam from "./sports/Sam";
 import brad from "../../assets/posts/sports/brad.jpg"
 import Brad from "./sports/Brad";
 
-import oi from "../../assets/posts/couples/123.jpg"
-import Teste1 from "./couples/teste1";
+import boots from "../../assets/posts/couples/hikingBoots.jpeg"
+import ElopementHikingBoots from "./couples/ElopementHikingBoots";
+
+import elopeColorado from "../../assets/posts/couples/ElopeColorado.jpeg"
+import ElopeInColorado from "./couples/ElopeInColorado";
+
+import lovelandGuide from "../../assets/posts/couples/loveland.jpeg"
+import LovelandGuide from "./couples/LovelandGuide";
+
+
 
 
 
 
 export const posts = [
 
+
+    {
+        slug: "loveland-pass-elopement-guide-colorado-wedding-locations",
+        categoryFolder: "couples",
+        title: "Loveland Pass Elopement Guide",
+        category: "Why Elope at Loveland Pass",
+        excerpt: "If you're dreaming about an elopement or an intimate wedding that feels wild, intimate, and straight out of a Colorado postcard but without a long hike, Loveland Pass might be exactly what you're looking for. Let me paint the picture for you.",
+        image:lovelandGuide,
+        component: LovelandGuide
+    },
+
+    
+
+    {
+        slug: "how-to-elope-in-colorado-even-from-out-of-state",
+        categoryFolder: "couples",
+        title: "How to Elope in Colorado (Even If You’re From Out of State)",
+        category: "Elope in one of the prettiest places in the U.S.",
+        excerpt: "Simple, legal, and honestly… one of the easiest places to get married in the U.S. Picture this: you turn your elopement into a full mountain trip. Slow mornings, coffee with a view, maybe a hike or a snowboard day… and somewhere in the middle of it, you get married.",
+        image:elopeColorado,
+        component: ElopeInColorado
+    },
+
+    {
+        slug: "elopement-hiking-boots-guide-colorado",
+        categoryFolder: "couples",
+        title: " Elopement Hiking Boots Guide for Colorado",
+        category: "Tips to make your session more comfortable and increrably fun",
+        excerpt: "When you picture your engagement day or even your wedding day in the mountains, you probably imagine wind, open views, maybe a little hike to get there.  Why I often recommend hiking boots for weddings. You don’t need to suffer for the view.",
+        image:boots ,
+        component: ElopementHikingBoots
+    },
 
     {
         slug: "surprise-proposal",
@@ -253,6 +293,7 @@ export const posts = [
         image:proposal1 ,
         component: Surprise
     },
+
 
     {
         slug: "touch-my-melody-lingerie",
