@@ -7,7 +7,6 @@ import RootLayout from "./pages/layout/RootLayout"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Galleries from "./pages/Galleries"
-import GalleriesRedirect from "./components/GalleriesRedirect" // Importe de components
 import Faq from "./pages/Faq"
 import Engagements from "./pages/Engagements"
 import Ski from "./pages/Ski"
@@ -29,6 +28,9 @@ import BlogPT from "./pages/pt/BlogPT"
 import PolicyPT from "./pages/pt/PolicyPT"
 import BlogPostPT from "./pages/pt/BlogPostPT"
 
+// 404 Page
+import NotFound from "./pages/NotFound"
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,7 +40,6 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "galleries", element: <Galleries /> },
-      { path: "galleries.html", element: <GalleriesRedirect /> },
       { path: "faq", element: <Faq /> },
       { path: "engagements", element: <Engagements /> },
       { path: "ski", element: <Ski /> },
@@ -58,12 +59,14 @@ const router = createBrowserRouter([
       { path: "vendors-list", element: <VendorsList /> },
       { path: "become-vendor", element: <BecomeVendor /> },
 
-      // 🛑 Rota coringa no final do grupo principal
-      { path: "*", element: <GalleriesRedirect /> }
+      // 404 Page - English
+      { path: "*", element: <NotFound /> }
     ]
   },
 
-  // PORTUGUESE VERSION
+  // =========================
+  // 🇧🇷 PORTUGUESE VERSION
+  // =========================
   {
     path: "pt",
     element: <RootLayout isPT={true} />,
@@ -84,16 +87,17 @@ const router = createBrowserRouter([
       { path: "faq", element: <FaqPT /> },
 
       { path: "galleries", element: <Galleries /> },
-      { path: "galleries.html", element: <GalleriesRedirect /> },
       { path: "engagements", element: <Engagements /> },
       { path: "ski", element: <Ski /> },
       { path: "headshots", element: <Headshots /> },
       { path: "store", element: <Store /> },
+
+      // 404 Page - Portuguese
+      { path: "*", element: <NotFound /> }
     ]
   }
 ], {
-  // Mantém a compatibilidade com o GitHub Pages e domínio próprio
   basename: window.location.pathname.startsWith('/kbphotographer') ? '/kbphotographer' : '/'
 })
 
-export default router
+export default router;
