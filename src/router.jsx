@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom"
+import { createBrowserRouter, Navigate } from "react-router-dom"
 
 // Layout
 import RootLayout from "./pages/layout/RootLayout"
@@ -35,11 +35,13 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <RootLayout><NotFound /></RootLayout>, // 👈 Captura erros de rota não encontrada e renderiza o layout com a página 404
     children: [
       // ENGLISH ROUTES
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "galleries", element: <Galleries /> },
+      { path: "galleries.html", element: <Navigate to="/galleries" replace /> }, // 👈 Redireciona galleries.html direto para /galleries
       { path: "faq", element: <Faq /> },
       { path: "engagements", element: <Engagements /> },
       { path: "ski", element: <Ski /> },
@@ -58,8 +60,6 @@ const router = createBrowserRouter([
       { path: "privacy-policy", element: <Policy /> },
       { path: "vendors-list", element: <VendorsList /> },
       { path: "become-vendor", element: <BecomeVendor /> },
-
-      // 404 Page - English
       { path: "*", element: <NotFound /> }
     ]
   },
@@ -68,8 +68,9 @@ const router = createBrowserRouter([
   // 🇧🇷 PORTUGUESE VERSION
   // =========================
   {
-    path: "pt",
+    path: "/pt",
     element: <RootLayout isPT={true} />,
+    errorElement: <RootLayout isPT={true}><NotFound /></RootLayout>,
     children: [
       { index: true, element: <HomePT /> },
       { path: "about", element: <AboutPT /> },
@@ -87,17 +88,20 @@ const router = createBrowserRouter([
       { path: "faq", element: <FaqPT /> },
 
       { path: "galleries", element: <Galleries /> },
+      { path: "galleries.html", element: <Navigate to="/pt/galleries" replace /> },
       { path: "engagements", element: <Engagements /> },
       { path: "ski", element: <Ski /> },
       { path: "headshots", element: <Headshots /> },
       { path: "store", element: <Store /> },
-
-      // 404 Page - Portuguese
       { path: "*", element: <NotFound /> }
     ]
-  }
-], {
-  basename: window.location.pathname.startsWith('/kbphotographer') ? '/kbphotographer' : '/'
-})
+  },
 
-export default router;
+  // Catch-all genérico no nível raiz
+  {
+    path: "*",
+    element: <RootLayout><NotFound /></RootLayout>
+  }
+])
+
+export default router
