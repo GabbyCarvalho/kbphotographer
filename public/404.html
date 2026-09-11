@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
+      // Pega todo o caminho digitado (ex: /galleries.html)
       var path = window.location.pathname + window.location.search + window.location.hash;
-      // Usar ?p= para bater com a verificação no seu main.jsx
-      window.location.replace(
-        window.location.origin + "/kbphotographer/?p=" + encodeURIComponent(path)
-      );
+      
+      // Limpa qualquer repetição da base
+      path = path.replace(/^\/kbphotographer/, '');
+
+      // Redireciona com o parâmetro 'p' correto lido pelo seu main.jsx
+      var rootUrl = window.location.origin + (window.location.pathname.startsWith('/kbphotographer') ? '/kbphotographer' : '');
+      window.location.replace(rootUrl + '/?p=' + encodeURIComponent(path));
     </script>
   </head>
   <body></body>
