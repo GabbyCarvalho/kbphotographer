@@ -7,7 +7,7 @@ import RootLayout from "./pages/layout/RootLayout"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Galleries from "./pages/Galleries"
-import GalleriesRedirect from "./pages/GalleriesRedirect" // 👈 Importe aqui
+import GalleriesRedirect from "./components/GalleriesRedirect"
 import Faq from "./pages/Faq"
 import Engagements from "./pages/Engagements"
 import Ski from "./pages/Ski"
