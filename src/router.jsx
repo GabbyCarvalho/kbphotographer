@@ -7,6 +7,7 @@ import RootLayout from "./pages/layout/RootLayout"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Galleries from "./pages/Galleries"
+import GalleriesRedirect from "./pages/GalleriesRedirect" // 👈 Importe aqui
 import Faq from "./pages/Faq"
 import Engagements from "./pages/Engagements"
 import Ski from "./pages/Ski"
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "galleries", element: <Galleries /> },
+      { path: "galleries.html", element: <GalleriesRedirect /> }, 
       { path: "faq", element: <Faq /> },
       { path: "engagements", element: <Engagements /> },
       { path: "ski", element: <Ski /> },
@@ -61,35 +63,35 @@ const router = createBrowserRouter([
   // =========================
   // 🇧🇷 PORTUGUESE VERSION
   // =========================
-{
-  path: "pt",
-  element: <RootLayout isPT={true} />,
-  children: [
-    { index: true, element: <HomePT /> },
-    { path: "about", element: <AboutPT /> },
-    { path: "contact", element: <ContactPT /> },
+  {
+    path: "pt",
+    element: <RootLayout isPT={true} />,
+    children: [
+      { index: true, element: <HomePT /> },
+      { path: "about", element: <AboutPT /> },
+      { path: "contact", element: <ContactPT /> },
 
-    
-    { path: "blog", 
-      children: [
-        { index: true, element: <BlogPT /> },
-        { path: ":slug", element: <BlogPostPT /> }
-      ]
-    },
+      { 
+        path: "blog", 
+        children: [
+          { index: true, element: <BlogPT /> },
+          { path: ":slug", element: <BlogPostPT /> }
+        ]
+      },
 
-    { path: "privacy-policy", element: <PolicyPT /> },
-    { path: "faq", element: <FaqPT /> },
+      { path: "privacy-policy", element: <PolicyPT /> },
+      { path: "faq", element: <FaqPT /> },
 
-    { path: "galleries", element: <Galleries /> },
-    { path: "engagements", element: <Engagements /> },
-    { path: "ski", element: <Ski /> },
-    { path: "headshots", element: <Headshots /> },
-    { path: "store", element: <Store /> },
-  ]
-}
+      { path: "galleries", element: <Galleries /> },
+      { path: "galleries.html", element: <GalleriesRedirect /> }, 
+      { path: "engagements", element: <Engagements /> },
+      { path: "ski", element: <Ski /> },
+      { path: "headshots", element: <Headshots /> },
+      { path: "store", element: <Store /> },
+    ]
+  }
 ], {
   basename: "/kbphotographer"
-}
-)
+})
 
-export default router
+export default router;

@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      
-      var path = window.location.pathname;
-
-     
+      var path = window.location.pathname + window.location.search + window.location.hash;
+      // Usar ?p= para bater com a verificação no seu main.jsx
       window.location.replace(
-        window.location.origin + "/?redirect=" + path
+        window.location.origin + "/kbphotographer/?p=" + encodeURIComponent(path)
       );
     </script>
   </head>
