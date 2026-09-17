@@ -244,13 +244,36 @@ import ElopeInColorado from "./couples/ElopeInColorado";
 import lovelandGuide from "../../assets/posts/couples/loveland.jpeg"
 import LovelandGuide from "./couples/LovelandGuide";
 
+import honeybook from "../../assets/posts/others/honeybook.jpg"
+import HoneyBookForPhotographers from "./others/HoneyBookForPhotographers";
 
-
+import race from "../../assets/posts/sports/race.jpg"
+import PhotographerForRaces from "./sports/PhotohrapherForRaces";
 
 
 
 export const posts = [
+    {
+        slug: "colorado-race-photographer-for-running-and-outdoor-sports-events",
+        categoryFolder: "sports",
+        title: "Colorado Running Race Photographer for Races, Runs & Outdoor Events",
+        category: "Photographer for Running and Outdoor Sports Events",
+        excerpt: "Colorado's running events aren't limited to city streets.Trail races and mountain events offer a completely different environment for photography. I enjoy working outdoors and photographing participants as they move through Colorado's landscapes.",
+        image:race,
+        component: PhotographerForRaces
+    },
 
+
+
+    {
+        slug: "honeybook-how-i-keep-your-photography-session-organized",
+        categoryFolder: "others",
+        title: "HoneyBook: How I Keep Your Photography Session Organized",
+        category: "Get to know more about HoneyBook",
+        excerpt: "If you've booked a session with me, you've probably seen HoneyBook mentioned in an email, contract, invoice, questionnaire, or one of the links I've shared with you.",
+        image:honeybook,
+        component: HoneyBookForPhotographers
+    },
 
     {
         slug: "loveland-pass-elopement-guide-colorado-wedding-locations",
